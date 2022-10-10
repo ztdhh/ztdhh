@@ -8,8 +8,6 @@ proxies:
   - {name: 中国-16.70MB/s(Youtube:不良林), server: fmpnschx.nodelist.xyz, port: 1308, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8207:EqSdog, obfs-param: "", udp: true}
   - {name: 中国-7.27MB/s(Youtube:不良林), server: da.kanao.xyz, port: 58809, type: trojan, password: 5f828b55-4967-41f3-99df-873e9eddcfca, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
   - {name: 中国-5.26MB/s(Youtube:不良林), server: 223.166.145.153, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53925:hjgjuy6t655jjg, obfs-param: "", udp: true}
-  - {name: 中国-4.87MB/s(Youtube:不良林), server: fmpnschx.nodelist.xyz, port: 1309, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 8207:EqSdog, obfs-param: "", udp: true}
-  - {name: 中国-813.3KB/s(Youtube:不良林), server: da.kanao.xyz, port: 58825, type: trojan, password: 5f828b55-4967-41f3-99df-873e9eddcfca, sni: da.kanao.xyz, skip-cert-verify: true, udp: true}
   - {name: 中国-5.69MB/s(Youtube:不良林), server: xi.kanao.xyz, port: 58808, type: trojan, password: 5f828b55-4967-41f3-99df-873e9eddcfca, sni: xi.kanao.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
