@@ -5,39 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国-3.55MB/s(Youtube:不良林), server: linus.oppo.quest, port: 2086, type: vmess, uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: linus.oppo.quest}, udp: true}
-  - {name: 未知国家-430.2KB/s(Youtube:不良林), server: h5.miyun.pro, port: 2086, type: vmess, uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aries, ws-headers: {Host: uk.cloudflare.quest}, udp: true}
-  - {name: 未知国家-5.32MB/s(Youtube:不良林), server: 198.41.212.100, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}, udp: true}
-  - {name: 中转节点-6.90MB/s(Youtube:不良林), server: sg2.awslcn.cc, port: 25246, type: vmess, uuid: c2c6d358-a79c-444e-b651-0345c3c0e672, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg2.awslcn.cc}, udp: true}
+  - {name: 未知国家-5.71MB/s(Youtube:不良林), server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash1.trump2023.net}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -56,10 +44,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -70,29 +55,20 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,10 +84,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国-3.55MB/s(Youtube:不良林)
-      - 未知国家-430.2KB/s(Youtube:不良林)
-      - 未知国家-5.32MB/s(Youtube:不良林)
-      - 中转节点-6.90MB/s(Youtube:不良林)
+      - 未知国家-5.71MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
