@@ -8,16 +8,18 @@ proxies:
   - {name: 未知国家-5.32MB/s(Youtube:不良林), server: 198.41.212.100, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}, udp: true}
   - {name: 美国-5.54MB/s(Youtube:不良林), server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg1.cfcdn1.xyz}, udp: true}
   - {name: 加拿大-249.0KB/s(Youtube:不良林), server: 137.184.164.233, port: 80, type: vmess, uuid: 8d8a181d-c9e7-4eb5-8c0f-09c0bf10b923, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vmess, ws-headers: {Host: 137.184.164.233}, udp: true}
-  - {name: 美国-1.11MB/s(Youtube:不良林), server: 66.212.20.3, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: v2ray2.ssr-free2.xyz}, udp: true}
-  - {name: 美国-4.40MB/s(Youtube:不良林), server: 172.64.154.201, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}, udp: true}
   - {name: 中转节点-11.02MB/s(Youtube:不良林), server: oss-cn-shanghai.westdatacloud.xyz, port: 20048, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, sni: oss-cn-shanghai.westdatacloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港-21.36MB/s(Youtube:不良林), server: dl-hk2.efpan.one, port: 443, type: trojan, password: 6d8d2ced-54da-4e79-bfae-2ed55345b954, sni: dl-hk2.efpan.one, skip-cert-verify: true, udp: true}
   - {name: 香港-23.02MB/s(Youtube:不良林), server: az04.cyuuu.me, port: 443, type: trojan, password: 6c2171ff-c5b3-3178-83b6-fff48dc79671, sni: az04.cyuuu.me, skip-cert-verify: true, udp: true}
   - {name: 香港-4.34MB/s(Youtube:不良林), server: 8.210.86.247, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg30.cfcdn3.xyz}, udp: true}
-  - {name: 美国-4.73MB/s(Youtube:不良林), server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: lg1.cfcdn1.xyz}, udp: true}
-  - {name: 印度-5.75MB/s(Youtube:不良林), server: yd.paolujichang.com, port: 81, type: ss, cipher: chacha20-ietf-poly1305, password: c9daa616-3d67-4078-9fa5-29efa4b318e2, udp: true}
   - {name: 新加坡-3.78MB/s(Youtube:不良林), server: xjp.paolujichang.com, port: 443, type: trojan, password: c9daa616-3d67-4078-9fa5-29efa4b318e2, sni: xjp.paolujichang.com, skip-cert-verify: true, udp: true}
   - {name: 中转节点-3.89MB/s(Youtube:不良林), server: 111.6.85.228, port: 33335, type: vmess, uuid: 2d4e2585-8e16-31ed-a9c0-9ed658a73cce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tnt-us3, ws-headers: {Host: ushksw888x.vzwzasc.cn}, udp: true}
+  - {name: 中转节点-4.07MB/s(Youtube:不良林), server: 111.29.60.217, port: 21003, type: trojan, password: a43c7131-99fa-4479-bf86-77d4eff6a89e, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-3.49MB/s(Youtube:不良林), server: 111.29.60.217, port: 11002, type: trojan, password: a43c7131-99fa-4479-bf86-77d4eff6a89e, skip-cert-verify: true, udp: true}
+  - {name: 未知国家-2.72MB/s(Youtube:不良林), server: 104.17.146.10, port: 80, type: vmess, uuid: 1e7ab649-4988-4b7d-bb2c-bc18ec1a9e3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wgnsldjfknzj, ws-headers: {Host: us1.cachexy.ga}, udp: true}
+  - {name: 加拿大-965.6KB/s(Youtube:不良林), server: 134.195.198.106, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 未知国家-4.12MB/s(Youtube:不良林), server: jp4.mayaa.cf, port: 443, type: vmess, uuid: 1d3d73f3-243c-4b48-b0b9-b699314a590c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsadvcxvcx, ws-headers: {Host: jp4.mayaa.cf}, udp: true}
+  - {name: 美国-4.03MB/s(Youtube:不良林), server: us.kapok.buzz, port: 443, type: vmess, uuid: eb4550a1-bd63-4f9c-b4b6-fdd24b440728, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /SCP-914, ws-headers: {Host: us.kapok.buzz}, udp: true}
+  - {name: 中转节点-11.40MB/s(Youtube:不良林), server: zxkbwgd2oy.bilibilii.live, port: 13026, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 0e312026333e.microsoft.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -27,16 +29,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,16 +49,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -64,16 +70,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -95,21 +103,22 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
       - 🔰 节点选择
@@ -121,16 +130,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -139,16 +150,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -158,16 +171,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -186,16 +201,18 @@ proxy-groups:
       - 未知国家-5.32MB/s(Youtube:不良林)
       - 美国-5.54MB/s(Youtube:不良林)
       - 加拿大-249.0KB/s(Youtube:不良林)
-      - 美国-1.11MB/s(Youtube:不良林)
-      - 美国-4.40MB/s(Youtube:不良林)
       - 中转节点-11.02MB/s(Youtube:不良林)
-      - 香港-21.36MB/s(Youtube:不良林)
       - 香港-23.02MB/s(Youtube:不良林)
       - 香港-4.34MB/s(Youtube:不良林)
-      - 美国-4.73MB/s(Youtube:不良林)
-      - 印度-5.75MB/s(Youtube:不良林)
       - 新加坡-3.78MB/s(Youtube:不良林)
       - 中转节点-3.89MB/s(Youtube:不良林)
+      - 中转节点-4.07MB/s(Youtube:不良林)
+      - 中转节点-3.49MB/s(Youtube:不良林)
+      - 未知国家-2.72MB/s(Youtube:不良林)
+      - 加拿大-965.6KB/s(Youtube:不良林)
+      - 未知国家-4.12MB/s(Youtube:不良林)
+      - 美国-4.03MB/s(Youtube:不良林)
+      - 中转节点-11.40MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
