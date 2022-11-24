@@ -188,6 +188,27 @@ proxies:
     sni: cos-ap-beijing.westdatacloud.xyz
     skip-cert-verify: true
     udp: true
+  - name: 中转节点-2.09MB/s(Youtube:不良林)
+    server: vstw.bdp666.top
+    port: 30111
+    type: vmess
+    uuid: 42aaa3fb-bc0f-3046-b004-49dfad7a7f93
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /sss
+    ws-headers:
+      Host: vstw.bdp666.top
+    udp: true
+  - name: 中转节点-6.12MB/s(Youtube:不良林)
+    server: 117.149.247.11
+    port: 20051
+    type: trojan
+    password: 753F996F-265C-F246-2730-A14DC159A832
+    skip-cert-verify: true
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -215,6 +236,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -239,6 +262,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -264,6 +289,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -301,6 +328,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -330,6 +359,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -354,6 +385,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -379,6 +412,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -413,6 +448,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -438,6 +475,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -463,6 +502,8 @@ proxy-groups:
       - 中转节点-360.8KB/s(Youtube:不良林)
       - 印度-179.8KB/s(Youtube:不良林)
       - 中转节点-3.69MB/s(Youtube:不良林)
+      - 中转节点-2.09MB/s(Youtube:不良林)
+      - 中转节点-6.12MB/s(Youtube:不良林)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
