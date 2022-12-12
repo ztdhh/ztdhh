@@ -5,35 +5,29 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 亚美尼亚-3.27MB/s(Youtube:不良林)
-    server: 185.162.228.229
-    port: 443
-    type: vmess
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /IYKLD53M
-    ws-headers:
-      Host: opfr1.v2rayfree1.xyz
+  - name: 中转节点-8.38MB/s(Youtube:不良林)
+    server: 7f07b5d5.zqlngu.sbs
+    port: 12262
+    type: ss
+    cipher: aes-128-gcm
+    password: 114514fuckimm
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: YlrIkqfsfI.download.windowsupdate.com
     udp: true
-  - name: 荷兰-4.90MB/s(Youtube:不良林)
-    server: 188.114.99.10
-    port: 443
-    type: vmess
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /IYKLD53M
-    ws-headers:
-      Host: opfr1.v2rayfree1.xyz
+  - name: 中转节点-3.16MB/s(Youtube:不良林)
+    server: dajbxus.naikonode.top
+    port: 15106
+    type: ssr
+    cipher: chacha20-ietf
+    password: NaikoCloud
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 1596:vsqvobohcqs
+    obfs-param: 6371f1596.microsoft.com
     udp: true
-  - name: 未知国家-2.58MB/s(Youtube:不良林)
+  - name: 未知国家-4.76MB/s(Youtube:不良林)
     server: 198.41.203.6
     port: 443
     type: vmess
@@ -47,104 +41,49 @@ proxies:
     ws-headers:
       Host: fr1.trump2023.org
     udp: true
-  - name: 未知国家-5.20MB/s(Youtube:不良林)
-    server: 190.93.245.2
+  - name: 美国-4.84MB/s(Youtube:不良林)
+    server: 141.193.213.10
     port: 443
     type: vmess
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: /ECTCJ0DF
+    ws-path: /9JZFDTKE
     ws-headers:
-      Host: lg1.trump2023.us
+      Host: fr1.trump2023.org
     udp: true
-  - name: 香港-2.09MB/s(Youtube:不良林)
-    server: 8.210.226.71
-    port: 35756
+  - name: 美国-1.60MB/s(Youtube:不良林)
+    server: cdn1.parshost.site
+    port: 80
     type: vmess
-    uuid: 42b9acac-66ac-4f48-9e43-ce54ebd4778f
+    uuid: ff2cc50d-d579-49a8-9560-cb5eaa33612f
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - 8.210.226.71
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: cdn1.parshost.site
     udp: true
-  - name: 香港-4.22MB/s(Youtube:不良林)
-    server: 47.243.29.114
-    port: 25167
-    type: vmess
-    uuid: 3e870054-fc9c-4937-a7d9-f5878296da4d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - 47.243.29.114
-    udp: true
-  - name: (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-    server: guangzhou-1.tianliangkeji.com
-    port: 8007
-    type: ssr
-    cipher: aes-256-cfb
-    password: V2efLnR3SJZr
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 3:9oEgNS882uJq8kK3
-    obfs-param: 5def83.microsoft.com
-    udp: true
-  - name: 伯利兹-3.09MB/s(Youtube:不良林)
-    server: 203.30.189.190
+  - name: 伯利兹-3.71MB/s(Youtube:不良林)
+    server: 203.30.190.192
     port: 443
     type: vmess
-    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: /5QNROSRV
+    ws-path: /A2DJOPFT
     ws-headers:
-      Host: oplg1.zhujicn2.com
+      Host: lg10.cfcdn1.xyz
     udp: true
-  - name: (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-    server: guangzhou-1.tianliangkeji.com
-    port: 8016
-    type: ssr
-    cipher: aes-256-cfb
-    password: V2efLnR3SJZr
-    protocol: auth_aes128_md5
-    obfs: http_simple
-    protocol-param: 3:9oEgNS882uJq8kK3
-    obfs-param: 5def83.microsoft.com
-    udp: true
-  - name: 中转节点-4.53MB/s(Youtube:不良林)
-    server: sg-03.xm1s.top
-    port: 458
-    type: ssr
-    cipher: dummy
-    password: MKaQhd
-    protocol: auth_chain_b
-    obfs: plain
-    protocol-param: 2646:ogILTy
-    obfs-param: wns.windows.com
-    udp: true
-  - name: 伯利兹-1.11MB/s(Youtube:不良林)
+  - name: 伯利兹-1002.8KB/s(Youtube:不良林)
     server: 203.30.188.120
     port: 443
     type: vmess
@@ -158,177 +97,40 @@ proxies:
     ws-headers:
       Host: opfr1.v2rayfree1.xyz
     udp: true
-  - name: 塞浦路斯-3.08MB/s(Youtube:不良林)
-    server: 203.24.108.9
-    port: 443
+  - name: 新加坡-3.48MB/s(Youtube:不良林)
+    server: sg1021.hkaa0.tk
+    port: 8880
     type: vmess
-    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /5QNROSRV
-    ws-headers:
-      Host: oplg1.zhujicn2.com
-    udp: true
-  - name: 未知国家-2.17MB/s(Youtube:不良林)
-    server: 190.93.244.4
-    port: 443
-    type: vmess
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /A2DJOPFT
-    ws-headers:
-      Host: lg10.cfcdn1.xyz
-    udp: true
-  - name: 美国-1.06MB/s(Youtube:不良林)
-    server: cu.gongyiyun.cf
-    port: 2095
-    type: vmess
-    uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
-    ws-path: /
+    ws-path: /hkaa0
     ws-headers:
-      Host: dknbyn3lw16n5elj.gongyiyun.cf
+      Host: sg1021.hkaa0.tk
     udp: true
-  - name: 未知国家-1.51MB/s(Youtube:不良林)
-    server: 190.93.246.195
-    port: 443
+  - name: 奥地利-2.50MB/s(Youtube:不良林)
+    server: 94.177.8.87
+    port: 38764
     type: vmess
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    network: ws
-    ws-path: /IYKLD53M
-    ws-headers:
-      Host: opfr1.v2rayfree1.xyz
     udp: true
-  - name: 中转节点-216.1KB/s(Youtube:不良林)
-    server: eduall.buzzline.org
-    port: 561
-    type: ssr
-    cipher: chacha20-ietf
-    password: mblank1port
-    protocol: auth_aes128_md5
-    obfs: plain
-    protocol-param: 55956:111111
-    obfs-param: ""
-    udp: true
-  - name: 加拿大-2.46MB/s(Youtube:不良林)
-    server: 23.227.38.38
-    port: 443
-    type: vmess
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /ECTCJ0DF
-    ws-headers:
-      Host: lg1.trump2023.us
-    udp: true
-  - name: 美国-1.88MB/s(Youtube:不良林)
-    server: 103.21.244.4
-    port: 443
-    type: vmess
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /shirker
-    ws-headers:
-      Host: sg-gcore.sharecentre.online
-    udp: true
-  - name: 美国-3.17MB/s(Youtube:不良林)
-    server: 103.21.244.7
-    port: 443
-    type: vmess
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /shirker
-    ws-headers:
-      Host: sg-gcore.sharecentre.online
-    udp: true
-  - name: 中转节点-12.78MB/s(Youtube:不良林)
-    server: zf.hpar.tk
-    port: 20014
-    type: vmess
-    uuid: 88b256e8-84dd-353b-99ed-2ab27cec0bf5
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 亚美尼亚-2.81MB/s(Youtube:不良林)
-    server: 185.162.228.230
-    port: 443
-    type: vmess
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /A2DJOPFT
-    ws-headers:
-      Host: lg10.cfcdn1.xyz
-    udp: true
-  - name: 美国-857.4KB/s(Youtube:不良林)
-    server: 66.235.200.22
-    port: 443
-    type: vmess
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /A2DJOPFT
-    ws-headers:
-      Host: lg10.cfcdn1.xyz
-    udp: true
-  - name: 新加坡-1.32MB/s(Youtube:不良林)
-    server: sg.securevpn.cc
-    port: 1020
+  - name: 中转节点-4.52MB/s(Youtube:不良林)
+    server: www.lanzou.com.lanzoujj.xyz
+    port: 13117
     type: ss
     cipher: aes-128-gcm
-    password: "202212000000000000000020"
+    password: haMLMXirByn6rGVh
     plugin: obfs
     plugin-opts:
       mode: http
-      host: securevpn.sb
-    udp: true
-  - name: 美国-408.7KB/s(Youtube:不良林)
-    server: 172.64.155.197
-    port: 443
-    type: vmess
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /shirker
-    ws-headers:
-      Host: sg-gcore.sharecentre.online
+      host: fd676857c824.microsoft.com
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -338,89 +140,47 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -439,125 +199,67 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -573,90 +275,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: consistent-hashing
     proxies:
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - 亚美尼亚-3.27MB/s(Youtube:不良林)
-      - 荷兰-4.90MB/s(Youtube:不良林)
-      - 未知国家-2.58MB/s(Youtube:不良林)
-      - 未知国家-5.20MB/s(Youtube:不良林)
-      - 香港-2.09MB/s(Youtube:不良林)
-      - 香港-4.22MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-19.68MB/s(Youtube:不良林)
-      - 伯利兹-3.09MB/s(Youtube:不良林)
-      - (已存活3天)中转节点-5.63MB/s(Youtube:不良林)
-      - 中转节点-4.53MB/s(Youtube:不良林)
-      - 伯利兹-1.11MB/s(Youtube:不良林)
-      - 塞浦路斯-3.08MB/s(Youtube:不良林)
-      - 未知国家-2.17MB/s(Youtube:不良林)
-      - 美国-1.06MB/s(Youtube:不良林)
-      - 未知国家-1.51MB/s(Youtube:不良林)
-      - 中转节点-216.1KB/s(Youtube:不良林)
-      - 加拿大-2.46MB/s(Youtube:不良林)
-      - 美国-1.88MB/s(Youtube:不良林)
-      - 美国-3.17MB/s(Youtube:不良林)
-      - 中转节点-12.78MB/s(Youtube:不良林)
-      - 亚美尼亚-2.81MB/s(Youtube:不良林)
-      - 美国-857.4KB/s(Youtube:不良林)
-      - 新加坡-1.32MB/s(Youtube:不良林)
-      - 美国-408.7KB/s(Youtube:不良林)
+      - 中转节点-8.38MB/s(Youtube:不良林)
+      - 中转节点-3.16MB/s(Youtube:不良林)
+      - 未知国家-4.76MB/s(Youtube:不良林)
+      - 美国-4.84MB/s(Youtube:不良林)
+      - 美国-1.60MB/s(Youtube:不良林)
+      - 伯利兹-3.71MB/s(Youtube:不良林)
+      - 伯利兹-1002.8KB/s(Youtube:不良林)
+      - 新加坡-3.48MB/s(Youtube:不良林)
+      - 奥地利-2.50MB/s(Youtube:不良林)
+      - 中转节点-4.52MB/s(Youtube:不良林)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10860,528 +10520,3 @@ rules:
   - MATCH,🐟 漏网之鱼
 proxy-providers: {}
 rule-providers: {}
-e.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sub.topber.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,subswin.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sucodb.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sunjianhao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,suoooi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,super.cat898.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,super.kdnet.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,supfast.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,surv.xbizmedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,susapi.dev.surepush.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,susapi.lenovomm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,suvset.sohu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sv719.dreamdays.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,sw.cailawyer.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,sw.mobile.sogou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,swa.gtimg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,swappdl.duoyi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,switchadhub.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,switching.atm.punchbox.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,swpgjai.pop.weddingeeos.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,swx.0.0.0.0.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,sxbhzs.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,sxdyrq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sxjxhg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sxz67.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy.code.mytanwan.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy.flash.mytanwan.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy.jlhygy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy.kcxsyz.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy.shongcheng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy.sxjxhg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sycbbs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sy-cdnres.unionsy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syilm.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,sykty.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,symaj.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,synacast.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.1dmp.io,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.1rx.io,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.adotmob.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.audsp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.audtd.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.crwdcntrl.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.extend.tv,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.fastclick.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.intentiq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.ipredictive.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.mathtag.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.morgdm.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.rambler.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.republer.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.teamrtb.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync.tidaltv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync2.audtd.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync-dsp.ad-m.asia,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync-eu.exe.bid,🛑 全球拦截
-  - DOMAIN-SUFFIX,sync-tm.everesttech.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication.exdynsrv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication.exoclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication.intel.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication.jsadapi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication.twitter.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication1.viraladnetwork.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,syndication-o.twitter.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,syofew6o.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,sys.zhangyue.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sysdig.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sytcyf.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sytsr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,sytz1288.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szb.aiyole.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szdzbx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szfaq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szggdw.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szkdst.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szrk3.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szshouzhai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szxc868.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szxpsg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,szyr474.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.2d-c.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.3apf.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.adbxb.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.adcrops.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.adxchina.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.atpanel.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.cnsjx.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.collect.yinyuetai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.cr-nielsen.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.cyuew.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.d.yoyi.tv,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.dangdang.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.dmtrck.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.gdt.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.go.sohu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.growingio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.iz55.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.oq68.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.pingzei.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.qiuqiuqipai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.sj.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.supermario.xyz,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.trafmag.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.tzcccm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.ujian.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.uvcourse.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,t.youmi.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,t1.58cdn.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t1.jzkapp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t1.visualrevenue.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t1.wshufa.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t188.dazhonghua.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t2.58cdn.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t2.jzkapp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t2.vbxx.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,t2.wshufa.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t3.58cdn.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,t70123.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t75.qyqc4s.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ta.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ta80.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,taat00889.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tactics.bainv.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tad.suning.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tag.cdnmaster.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tag.digitaltarget.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,tag.yoc-adserver.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tags.growingio.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tags2.adshell.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tags4.revdepo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tajxgs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,talk.nz.igexin.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,talkingdata.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,talkingdata.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tangoutianxia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tansuotv.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tanwanyx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tanxlog.istreamsche.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tanzanite.infomine.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,taobaly.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,taobaoaliyun.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,taobaobo5.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,taobayun.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,taohanpai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,taomato.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tap.rubiconproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tap-cdn.rubiconproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tapjoy.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tapjoy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tapjoyads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tap-t.rubiconproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,targetedinfo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,targetedmedia.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,targetedtopic.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tatagou.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tb.code.twyxi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tb060x.corp.youdao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tb104x.corp.youdao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tbaocdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tbjfw.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tc.51la.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tc.ci123.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tc600.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tcad.wedolook.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tcjy66.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,tcss.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,td.mpush.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,td.xue63.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tdayi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tdcv3.talkingdata.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,t-e.flyme.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,teen.77rog.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,telstra.imrworldwide.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,temai.snssdk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,temai.taobao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,temp.163.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tencentmind.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tenddata.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,test.api.xlmc.sandai.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,test.eduancm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,test.surepush.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,textlink.simba.taobao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tf.caohua.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tf.hdfdm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tf.hftaili.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t-flow.flyme.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tfssl.caohua.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tg.1155t.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tg.52digua.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tg.jifen.2345.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tg.m.37.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tga.csbew.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tgb.csbew.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,th21333.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,th7.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,thejesperbay.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,themis.yahoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,thescenseproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,thetestpage.39.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,thoughtleadr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,thxnr.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,thyvjboy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,thztv.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,ti.tradetracker.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tiads.time.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tiangoutai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tiangu99.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tianmidian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tianqi777.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tianyanzs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ticcdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,timelog.moviebox.baofeng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tips.logger.baofeng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tiqcdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,titan.babytree.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,titan.guestworld.tripod.lycos.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,titan01.babytree.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,titi.qifajiang.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tjf.lyhuayun.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tjhuajiantang.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tjlog.easou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tjlog.ps.easou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tjs.sjs.sinajs.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tk.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tk.optaim.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tkd777.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tkmdng.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tkweb.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,t-l.play.aiseet.atianqi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tmcs.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tmisc.home.news.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tns-counter.ru,🛑 全球拦截
-  - DOMAIN-SUFFIX,token.rubiconproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tongji-res1.meizu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tongqing2015.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tool.btrabbit.la,🛑 全球拦截
-  - DOMAIN-SUFFIX,toolbar.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,toolbar.msn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,toourbb.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,top.h.qhimg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,top.h.qhmsg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,top267.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,total.xinmin.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,touclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,toutiao.2haha.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,toutiao.jxnews.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tp.sgcn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tpc.googlesyndication.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tpe163.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tpush.html5.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tqd.ntpddq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,track-east.mobileadtrading.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trackersimulator.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,tracking-server-prod-1.zenmxapps.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tradeadexchange.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tradeccl.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficfactory.biz,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficjam.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,trafficmp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tralog.ganji.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tran.news.so.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tredman.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tree.logger.baofeng.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trends.mobile.sina.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,trial.alcohol-soft.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trwba.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,trzina.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ts.hivecn.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tsdlp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tsjdgzm.m.3dllc.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,tsrc8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tt.biquge.la,🛑 全球拦截
-  - DOMAIN-SUFFIX,tt.shxinjie.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tt.twzui6.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tt123.eastday.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tt321.eastday.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ttcdn.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ttlm.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,ttlowe.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ttm.htfmbt.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ttts.leztc.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ttts.miyue17.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tu.baixing.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tu.njflfd.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tu.szefe.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuadong.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuanxue360.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tui.gtimg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tui1999.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tui98.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuigoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuiguang.178.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuiguang.meitu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuiguang.yicha.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuijian.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuisong.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tuituigui19999.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tujidao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tukeai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tukexiu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tukj.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,tumblrprobes.cedexis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tumblrreports.cedexis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tv.code.jjyx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tw.adon.vpon.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tw.adx.nextmedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tw.api.vpon.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tw.fgmtv.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,tw.pub.vpon.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tw13b093.sandai.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,twb98.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,twcczhu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,twh5.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,twinplan.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,twitterzs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,twldmx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,twzui6.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tx.lwinl.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,txt.go.sohu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,txtad.jijiplayer.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tylll.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tyu.quanliyouxi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,tyx.xtzxmy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tz.1688988.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tz.zjhoudao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tzbtw.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,tz-dsp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.63kc.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.cnzol.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.ddvip.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.diannaodian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.huoying666.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.jimdo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.qijipc.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.raidmedia.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.talkingdata.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.uc123.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.ucfly.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.xcy8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.yiiwoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u.yizuya.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u0.s.minisplat.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,u034024.nr1234.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u1.s.minisplat.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,u1.shuaiku.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u2.s.minisplat.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,u291014.nr1234.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,u349036.ff112222.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ua.badongo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uapi.punchbox.org,🛑 全球拦截
-  - DOMAIN-SUFFIX,ubm.fangtoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uc.haoyunyuan.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,uc.xiansuper.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uc2.atobo.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,uc610.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uc9.ucweb.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucaliyun.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucan.25pp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucqq.cnsptv.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucrzgcs.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucstat.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucus.ucweb.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ucxxii.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uczzd.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uczzd.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,uczzd.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,udata.mixmarket.biz,🛑 全球拦截
-  - DOMAIN-SUFFIX,udc.msn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,udm.scorecardresearch.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,udrig.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,udrwyjpwjfeg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ue.ueadlian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ue.yeyoucdn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ueadlian.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uebawtz7.me,🛑 全球拦截
-  - DOMAIN-SUFFIX,ugc.moji001.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ugg.keefung-zs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ugg66.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ugvip.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ui37.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,uid.ksosoft.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uid.mdbchina.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uimg.27admin.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uimserv.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,ujian.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,ujikdd041o.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,uk3oi.adgze.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,ukeiae.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ulic.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ulink.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,ulog.imap.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,um.simpli.fi,🛑 全球拦截
-  - DOMAIN-SUFFIX,um0592.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,um2.eqads.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,um29.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,umid.orion.meizu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,umiwi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,umyai.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,un.52rkl.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,un.soarfi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,un.winasdaq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,un1.takefoto.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,unconf.mobad.ijinshan.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,undm.qibulo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unicast.ign.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unicast.msn.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unilog.wostore.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,unimhk.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.baidustatic.guannin.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.china.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.dbba.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.maccms.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.mop.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.sogou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.star-media.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,union.youdao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union1.xiaojianjian.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,uniondm.cz88.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,unionimage.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unionsy.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,union-wifi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unipaydl.wostore.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,unipayupg.wostore.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,unitacs.m.taobao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unjs.jfcdns.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,unlitui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uns.soarfi.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,untitled.dwstatic.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uodoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uoyrsd.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,up.cm.ksmobile.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,up.hiao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,up4.ucweb.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,upd.faronicslabs.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.360safe.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.avlyun.sec.miui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.bainv.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.coolyun.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.juw37xqo3x.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.minipage.2345.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.mobile.kugou.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,update.sdk.jiguang.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,updatecenter.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,updatepage.kuwo.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,updates-s3.binaryage.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uplze.code.weddingeeos.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ups.ksmobile.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,upush.res.meizu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uqszvk.code.weddingeeos.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uqum.52shouyou.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,urbanairship.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,urchin.5173.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,urh.tylll.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,urhu.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,url.222bz.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,url.tudown.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,urls.api.twitter.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,us.adserver.yahoo.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,us.bannyat.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,us.bs.serving-sys.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,user.tiankongzudui.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,usercollection.chinadaily.com.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,uservoice.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ushaqi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,usingde.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,usr.mgid.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uss-pid.lenovomm.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,usync.aws.rubiconproject.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ut2.shuqistat.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,util.nphoto.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,utility.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,utility.rogersmedia.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,utk.baidu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,utp.ucweb.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uu.feipukeplus.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uu.zeverdg.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uuidksinc.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,uulucky.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uvclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uw9377.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uxip.meizu.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uyunad.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,uzpmrbek.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.dbncp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.e7002.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.gdt.qq.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.irs01.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.oq68.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.rmbn.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,v.szpaopao.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v00087.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v02u9.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,v1.0594529.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v1.ujian.cc,🛑 全球拦截
-  - DOMAIN-SUFFIX,v12-r0566gbscjw.z.irs01.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v1-feed.idreamsky.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v2.fm.n.duokanbox.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v2.jiathis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v3.jiathis.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v66v66.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v7.kawinhome.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,v707070.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,va.gxpan.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,vad1.jianshen8.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,val.atm.cp31.ott.cibntv.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,valf.atm.cp31.ott.cibntv.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,vamaker.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vangmobi.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vas.funshion.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vatrack.hinet.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,vcfs6ip5h6.bid,🛑 全球拦截
-  - DOMAIN-SUFFIX,vda.17173.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vdazz.net,🛑 全球拦截
-  - DOMAIN-SUFFIX,ve.tsdlp.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vedeh.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vegent.cn,🛑 全球拦截
-  - DOMAIN-SUFFIX,vendor1.fitschigogerl.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,ver.touclick.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,verdict.abc.go.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vers80.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vg02h8z1ul.me,🛑 全球拦截
-  - DOMAIN-SUFFIX,vi0.mzy2014.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,vi1.ku6
