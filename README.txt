@@ -5,14 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-    server: content-provider4.cdn-delivery.akamaicd.com
-    port: 443
-    type: trojan
-    password: shefelnak
-    sni: content-provider4.cdn-delivery.akamaicd.com
-    skip-cert-verify: true
-    udp: true
   - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
     server: 141.193.213.10
     port: 443
@@ -27,8 +19,36 @@ proxies:
     ws-headers:
       Host: sg-gcore.sharecentre.online
     udp: true
-  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-    server: cf-lt-dns.sharecentre.online
+  - name: 美国-2.15MB/s(Youtube:不良林)
+    server: 47.87.139.154
+    port: 443
+    type: vmess
+    uuid: b7b604e4-50e7-3a8b-84f6-2035fcd24e3f
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: 47.87.139.154
+    udp: true
+  - name: 未知国家-516.0KB/s(Youtube:不良林)
+    server: 198.41.212.123
+    port: 443
+    type: vmess
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /IYKLD53M
+    ws-headers:
+      Host: opfr1.v2rayfree1.xyz
+    udp: true
+  - name: 美国-4.32MB/s(Youtube:不良林)
+    server: 172.67.205.70
     port: 443
     type: vmess
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -40,6 +60,20 @@ proxies:
     ws-path: /shirker
     ws-headers:
       Host: sg-gcore.sharecentre.online
+    udp: true
+  - name: CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+    server: 23.227.38.40
+    port: 443
+    type: vmess
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /A2DJOPFT
+    ws-headers:
+      Host: lg10.cfcdn1.xyz
     udp: true
   - name: 未知国家-1.17MB/s(Youtube:不良林)
     server: 198.41.203.5
@@ -55,8 +89,8 @@ proxies:
     ws-headers:
       Host: opfr1.v2rayfree1.xyz
     udp: true
-  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-    server: 162.159.137.2
+  - name: 美国-4.36MB/s(Youtube:不良林)
+    server: 172.67.164.125
     port: 443
     type: vmess
     uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -76,20 +110,6 @@ proxies:
     password: 2dab5d78-5c56-4252-850d-c037753a40db
     skip-cert-verify: true
     udp: true
-  - name: 未知国家-516.0KB/s(Youtube:不良林)
-    server: 198.41.212.123
-    port: 443
-    type: vmess
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /IYKLD53M
-    ws-headers:
-      Host: opfr1.v2rayfree1.xyz
-    udp: true
   - name: CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
     server: 203.24.108.10
     port: 443
@@ -104,26 +124,11 @@ proxies:
     ws-headers:
       Host: lg10.cfcdn1.xyz
     udp: true
-  - name: CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-    server: 190.93.245.3
+  - name: 越南-3.73MB/s(Youtube:不良林)
+    server: 103.81.85.238
     port: 443
-    type: vmess
-    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /5QNROSRV
-    ws-headers:
-      Host: oplg1.zhujicn2.com
-    udp: true
-  - name: 中转节点-5.30MB/s(Youtube:不良林)
-    server: sg-cn.teacher2040.com
-    port: 43508
     type: trojan
-    password: 6B0A098E-EDDB-AF0F-8176-E478F81639C9
-    sni: sg-cn.teacher2040.com
+    password: 6270e679-6b55-40e7-9dab-4143e32abf6d
     skip-cert-verify: true
     udp: true
   - name: 中转节点-8.38MB/s(Youtube:不良林)
@@ -137,23 +142,29 @@ proxies:
       mode: http
       host: YlrIkqfsfI.download.windowsupdate.com
     udp: true
-  - name: 香港-3.36MB/s(Youtube:不良林)
-    server: 47.243.30.150
-    port: 61338
+  - name: 中转节点-13.34MB/s(Youtube:不良林)
+    server: 183.240.60.119
+    port: 10001
     type: vmess
-    uuid: 88db38e9-83c7-4bf1-af64-94830a62b205
-    alterId: 0
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 1
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: http
-    http-opts:
-      method: GET
-      path:
-        - /
-      headers:
-        Host:
-          - 47.243.30.150
+    udp: true
+  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+    server: 162.159.137.2
+    port: 443
+    type: vmess
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AUIKN8AU
+    ws-headers:
+      Host: oplg1.cfcdn2.xyz
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -163,53 +174,56 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -228,76 +242,79 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港-3.36MB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -313,54 +330,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
-      - GB_英国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_63
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-      - 美国-1.62MB/s(Youtube:不良林)
+      - 美国-2.15MB/s(Youtube:不良林)
       - 未知国家-516.0KB/s(Youtube:不良林)
+      - 美国-4.32MB/s(Youtube:不良林)
+      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
+      - 未知国家-1.17MB/s(Youtube:不良林)
+      - 美国-4.36MB/s(Youtube:不良林)
+      - 美国-1.62MB/s(Youtube:不良林)
       - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - CR_哥斯达黎加_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_1
-      - 中转节点-5.30MB/s(Youtube:不良林)
+      - 越南-3.73MB/s(Youtube:不良林)
       - 中转节点-8.38MB/s(Youtube:不良林)
-      - 香港-3.36MB/s(Youtube:不良林)
+      - 中转节点-13.34MB/s(Youtube:不良林)
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
