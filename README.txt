@@ -5,50 +5,319 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-    server: 141.193.213.10
+  - name: Youtube顺丰资源 _9
+    server: 183.240.60.119
+    port: 10001
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__2
+    server: 183.240.60.119
+    port: 10001
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 中转节点-10.11MB/s(Youtube:不良林)
+    server: mdss-moble.gatknqh.cn
+    port: 12002
+    type: ss
+    cipher: aes-128-gcm
+    password: 1b4df316-6caf-4cf5-bcde-20e38ca753d2
+    udp: true
+  - name: Youtube顺丰资源 SG
+    server: xw.zemzoh.cf
     port: 443
     type: vmess
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    uuid: e0c38549-84f8-455a-a63f-beaef6fa2160
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: /shirker
+    ws-path: /ray
     ws-headers:
-      Host: sg-gcore.sharecentre.online
+      Host: xw.zemzoh.cf
     udp: true
-  - name: 美国-2.15MB/s(Youtube:不良林)
-    server: 47.87.139.154
+  - name: 中转节点-13.34MB/s(Youtube:不良林)
+    server: 183.240.60.119
+    port: 10001
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 1
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 US  4
+    server: 172.67.135.55
     port: 443
     type: vmess
-    uuid: b7b604e4-50e7-3a8b-84f6-2035fcd24e3f
-    alterId: 2
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AUIKN8AU
+    ws-headers:
+      Host: oplg1.cfcdn2.xyz
+    udp: true
+  - name: Youtube顺丰资源 US  86
+    server: oplg1.cfcdn2.xyz
+    port: 443
+    type: vmess
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AUIKN8AU
+    ws-headers:
+      Host: oplg1.cfcdn2.xyz
+    udp: true
+  - name: 塞浦路斯-5.35MB/s(Youtube:不良林)
+    server: 203.24.108.9
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源 US  6
+    server: shcu01b.tizi1.net
+    port: 10003
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 _US_美国675
+    server: 141.193.213.20
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源 US  8
+    server: 223.167.208.67
+    port: 10003
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源  - 丹麦  23
+    server: 185.162.228.228
+    port: 443
+    type: vmess
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /ECTCJ0DF
+    ws-headers:
+      Host: lg1.trump2023.us
+    udp: true
+  - name: Youtube顺丰资源 US  15
+    server: 172.67.203.162
+    port: 443
+    type: vmess
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AUIKN8AU
+    ws-headers:
+      Host: oplg1.cfcdn2.xyz
+    udp: true
+  - name: Youtube顺丰资源 _加拿大_40
+    server: 23.227.38.38
+    port: 443
+    type: vmess
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /ECTCJ0DF
+    ws-headers:
+      Host: lg1.trump2023.us
+    udp: true
+  - name: Youtube顺丰资源 US  20
+    server: yjz.hk
+    port: 443
+    type: vmess
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AUIKN8AU
+    ws-headers:
+      Host: oplg1.cfcdn2.xyz
+    udp: true
+  - name: Youtube顺丰资源 美国 35 2
+    server: hohm.microsoft.com
+    port: 443
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /sshkit/fdfadsfa/63848bfe228fd/
+    ws-headers:
+      Host: us-lb.sshkit.org
+    udp: true
+  - name: Youtube顺丰资源 KR  8
+    server: hn.xiaohouzi.club
+    port: 16015
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hn.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 美国 6
+    server: 172.64.154.155
+    port: 443
+    type: vmess
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dongtaiwang.com
+    ws-headers:
+      Host: clash6.ssr-free.xyz
+    udp: true
+  - name: Youtube顺丰资源 US  7
+    server: 172.64.154.102
+    port: 443
+    type: vmess
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dongtaiwang.com
+    ws-headers:
+      Host: clash6.ssr-free.xyz
+    udp: true
+  - name: Youtube顺丰资源 US美国 11
+    server: 172.67.199.34
+    port: 443
+    type: vmess
+    uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shared
+    ws-headers:
+      Host: lv.awsbest.com
+    udp: true
+  - name: Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+    server: 23.227.38.39
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源 FR 法国 5
+    server: 172.67.199.34
+    port: 443
+    type: vmess
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /9JZFDTKE
+    ws-headers:
+      Host: fr1.trump2023.org
+    udp: true
+  - name: Youtube顺丰资源 84🇸🇬171
+    server: 172.67.199.34
+    port: 8880
+    type: vmess
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
-    ws-path: /v2ray
+    ws-path: /hkaa0
     ws-headers:
-      Host: 47.87.139.154
+      Host: sg1021.hkaa0.tk
     udp: true
-  - name: 未知国家-516.0KB/s(Youtube:不良林)
-    server: 198.41.212.123
-    port: 443
+  - name: Youtube顺丰资源 US  15 2
+    server: cacerts.digicert.com
+    port: 80
     type: vmess
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     network: ws
-    ws-path: /IYKLD53M
+    ws-path: /shares
     ws-headers:
-      Host: opfr1.v2rayfree1.xyz
+      Host: la.awsbest.com
     udp: true
-  - name: 美国-4.32MB/s(Youtube:不良林)
-    server: 172.67.205.70
+  - name: Youtube顺丰资源 UK  4
+    server: hnm.xiaohouzi.club
+    port: 47552
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hnm.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 美国 32
+    server: cf-lt.sharecentre.online
     port: 443
     type: vmess
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
@@ -59,10 +328,10 @@ proxies:
     network: ws
     ws-path: /shirker
     ws-headers:
-      Host: sg-gcore.sharecentre.online
+      Host: lu.sharecentre.online
     udp: true
-  - name: CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-    server: 23.227.38.40
+  - name: Youtube顺丰资源  - 丹麦  8
+    server: 185.162.228.230
     port: 443
     type: vmess
     uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
@@ -75,22 +344,78 @@ proxies:
     ws-headers:
       Host: lg10.cfcdn1.xyz
     udp: true
-  - name: 未知国家-1.17MB/s(Youtube:不良林)
-    server: 198.41.203.5
+  - name: Youtube顺丰资源 _伯利兹_49
+    server: 203.30.189.191
     port: 443
     type: vmess
-    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: /IYKLD53M
+    ws-path: /A2DJOPFT
     ws-headers:
-      Host: opfr1.v2rayfree1.xyz
+      Host: lg10.cfcdn1.xyz
     udp: true
-  - name: 美国-4.36MB/s(Youtube:不良林)
-    server: 172.67.164.125
+  - name: Youtube顺丰资源 美国 9
+    server: 203.30.191.192
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源 US  2
+    server: 172.67.145.166
+    port: 443
+    type: vmess
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AUIKN8AU
+    ws-headers:
+      Host: oplg1.cfcdn2.xyz
+    udp: true
+  - name: Youtube顺丰资源 US  51
+    server: oplg1.zhujicn2.com
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源 US  42
+    server: get.tech
+    port: 80
+    type: vmess
+    uuid: 8763e625-929a-43da-b7bf-7e7bc2e57615
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shared
+    ws-headers:
+      Host: lv.awsbest.com
+    udp: true
+  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+    server: 162.159.137.2
     port: 443
     type: vmess
     uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -110,50 +435,8 @@ proxies:
     password: 2dab5d78-5c56-4252-850d-c037753a40db
     skip-cert-verify: true
     udp: true
-  - name: CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-    server: 203.24.108.10
-    port: 443
-    type: vmess
-    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /A2DJOPFT
-    ws-headers:
-      Host: lg10.cfcdn1.xyz
-    udp: true
-  - name: 越南-3.73MB/s(Youtube:不良林)
-    server: 103.81.85.238
-    port: 443
-    type: trojan
-    password: 6270e679-6b55-40e7-9dab-4143e32abf6d
-    skip-cert-verify: true
-    udp: true
-  - name: 中转节点-8.38MB/s(Youtube:不良林)
-    server: 7f07b5d5.zqlngu.sbs
-    port: 12262
-    type: ss
-    cipher: aes-128-gcm
-    password: 114514fuckimm
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: YlrIkqfsfI.download.windowsupdate.com
-    udp: true
-  - name: 中转节点-13.34MB/s(Youtube:不良林)
-    server: 183.240.60.119
-    port: 10001
-    type: vmess
-    uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    alterId: 1
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
-    server: 162.159.137.2
+  - name: Youtube顺丰资源 US  5
+    server: 172.67.70.22
     port: 443
     type: vmess
     uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
@@ -166,6 +449,250 @@ proxies:
     ws-headers:
       Host: oplg1.cfcdn2.xyz
     udp: true
+  - name: Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+    server: 203.30.190.190
+    port: 443
+    type: vmess
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /ECTCJ0DF
+    ws-headers:
+      Host: lg1.trump2023.us
+    udp: true
+  - name: Youtube顺丰资源 _美国_31
+    server: cf-lt.sharecentre.online
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: us-dp.sharecentre.online
+    udp: true
+  - name: Youtube顺丰资源 US__13
+    server: 172.67.127.250
+    port: 443
+    type: vmess
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /9JZFDTKE
+    ws-headers:
+      Host: fr1.trump2023.org
+    udp: true
+  - name: Youtube顺丰资源 DE  3
+    server: xjp4h.mayaa.ml
+    port: 443
+    type: vmess
+    uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dsadsa1dsadsa33434
+    ws-headers:
+      Host: xjp4h.mayaa.ml
+    udp: true
+  - name: Youtube顺丰资源 美国 10
+    server: shcu01b.tizi1.net
+    port: 10003
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+    server: 203.30.188.188
+    port: 443
+    type: vmess
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /ECTCJ0DF
+    ws-headers:
+      Host: lg1.trump2023.us
+    udp: true
+  - name: Youtube顺丰资源 🇺🇲 美国 29
+    server: cf-lt.sharecentre.online
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: sg-gcore.sharecentre.online
+    udp: true
+  - name: Youtube顺丰资源 US__25
+    server: 192.227.174.7
+    port: 18332
+    type: vmess
+    uuid: 8c400a5f-dc8b-4197-92ed-098d5fa7e214
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 美国 CloudFlare节点 12
+    server: 172.67.199.34
+    port: 443
+    type: vmess
+    uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dsadsa1dsadsa33434
+    ws-headers:
+      Host: xjp4h.mayaa.ml
+    udp: true
+  - name: Youtube顺丰资源 US 11
+    server: hohm.microsoft.com
+    port: 443
+    type: vmess
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /A2DJOPFT
+    ws-headers:
+      Host: lg10.cfcdn1.xyz
+    udp: true
+  - name: Youtube顺丰资源 🇺🇲 美国 51
+    server: 141.193.213.10
+    port: 443
+    type: vmess
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /9JZFDTKE
+    ws-headers:
+      Host: fr1.trump2023.org
+    udp: true
+  - name: Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+    server: 203.30.189.190
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源  - 丹麦  3
+    server: 185.162.228.229
+    port: 443
+    type: vmess
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /5QNROSRV
+    ws-headers:
+      Host: oplg1.zhujicn2.com
+    udp: true
+  - name: Youtube顺丰资源 US__33
+    server: cf-lt.sharecentre.online
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: buyvm-lv.sharecentre.online
+    udp: true
+  - name: Youtube顺丰资源 越南
+    server: news.microsoft.com
+    port: 443
+    type: vmess
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /A2DJOPFT
+    ws-headers:
+      Host: lg10.cfcdn1.xyz
+    udp: true
+  - name: Youtube顺丰资源 新加坡 6
+    server: 172.67.199.34
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: sg-gcore.sharecentre.online
+    udp: true
+  - name: Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+    server: 203.30.191.193
+    port: 443
+    type: vmess
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /A2DJOPFT
+    ws-headers:
+      Host: lg10.cfcdn1.xyz
+    udp: true
+  - name: US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
+    server: 141.193.213.10
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: sg-gcore.sharecentre.online
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -174,56 +701,176 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -242,19 +889,59 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -265,56 +952,176 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -330,57 +1137,177 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
-      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
-      - 美国-2.15MB/s(Youtube:不良林)
-      - 未知国家-516.0KB/s(Youtube:不良林)
-      - 美国-4.32MB/s(Youtube:不良林)
-      - CA_加拿大_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_3
-      - 未知国家-1.17MB/s(Youtube:不良林)
-      - 美国-4.36MB/s(Youtube:不良林)
-      - 美国-1.62MB/s(Youtube:不良林)
-      - CY_塞浦路斯_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_2
-      - 越南-3.73MB/s(Youtube:不良林)
-      - 中转节点-8.38MB/s(Youtube:不良林)
+      - Youtube顺丰资源 _9
+      - Youtube顺丰资源 CN__2
+      - 中转节点-10.11MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG
       - 中转节点-13.34MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  4
+      - Youtube顺丰资源 US  86
+      - 塞浦路斯-5.35MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  6
+      - Youtube顺丰资源 _US_美国675
+      - Youtube顺丰资源 US  8
+      - Youtube顺丰资源  - 丹麦  23
+      - Youtube顺丰资源 US  15
+      - Youtube顺丰资源 _加拿大_40
+      - Youtube顺丰资源 US  20
+      - Youtube顺丰资源 美国 35 2
+      - Youtube顺丰资源 KR  8
+      - Youtube顺丰资源 美国 6
+      - Youtube顺丰资源 US  7
+      - Youtube顺丰资源 US美国 11
+      - Youtube顺丰资源  - 美国CloudFlare公司CDN节点(shopify) 7
+      - Youtube顺丰资源 FR 法国 5
+      - Youtube顺丰资源 84🇸🇬171
+      - Youtube顺丰资源 US  15 2
+      - Youtube顺丰资源 UK  4
+      - Youtube顺丰资源 美国 32
+      - Youtube顺丰资源  - 丹麦  8
+      - Youtube顺丰资源 _伯利兹_49
+      - Youtube顺丰资源 美国 9
+      - Youtube顺丰资源 US  2
+      - Youtube顺丰资源 US  51
+      - Youtube顺丰资源 US  42
       - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_10
+      - 美国-1.62MB/s(Youtube:不良林)
+      - Youtube顺丰资源 US  5
+      - Youtube顺丰资源  - 澳大利亚Langwarrin Secondary College 5
+      - Youtube顺丰资源 _美国_31
+      - Youtube顺丰资源 US__13
+      - Youtube顺丰资源 DE  3
+      - Youtube顺丰资源 美国 10
+      - Youtube顺丰资源  - 澳大利亚Lyndhurst Secondary College 11
+      - Youtube顺丰资源 🇺🇲 美国 29
+      - Youtube顺丰资源 US__25
+      - Youtube顺丰资源 美国 CloudFlare节点 12
+      - Youtube顺丰资源 US 11
+      - Youtube顺丰资源 🇺🇲 美国 51
+      - Youtube顺丰资源  - 澳大利亚Kooweerup Secondary College 1 2
+      - Youtube顺丰资源  - 丹麦  3
+      - Youtube顺丰资源 US__33
+      - Youtube顺丰资源 越南
+      - Youtube顺丰资源 新加坡 6
+      - Youtube顺丰资源  - 澳大利亚Cranbourne Secondary College 28
+      - US_美国_欢迎订阅小閑哥频道❤️telegram群组：https://t.me/+iTyt7VgBsHdjZTc1_60
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
