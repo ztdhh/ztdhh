@@ -5,38 +5,28 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: Youtube顺丰资源+JP
-    server: 2e91fd03-8e75-4169-dae0-3379f3903080.interface.buzz
-    port: 52632
+  - name: Youtube顺丰资源+荷兰+2
+    server: 172.99.188.99
+    port: 8882
     type: ss
     cipher: aes-256-gcm
-    password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
+    password: kDWvXYZoTBcGkC4
     udp: true
-  - name: Youtube顺丰资源+US
-    server: 8cdba5d8-7555-8c18-9808-2e907c1c5177.interface.buzz
-    port: 21565
+  - name: Youtube顺丰资源+NL荷兰
+    server: 172.99.188.99
+    port: 3389
     type: ss
     cipher: aes-256-gcm
-    password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
+    password: Y6R9pAtvxxzmGC
     udp: true
-  - name: Youtube顺丰资源 CN__27
-    server: 103.45.78.195
-    port: 10001
-    type: vmess
-    uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源+CN__1
-    server: 120.241.229.74
-    port: 50067
+  - name: Youtube顺丰资源+荷兰+3
+    server: 172.99.188.99
+    port: 6379
     type: ss
     cipher: aes-256-gcm
-    password: 7c458210-86ba-4d86-85c8-1234cc935f5e
+    password: zDNVedRFPQexG9v
     udp: true
-  - name: Youtube顺丰资源 CN__22
+  - name: Youtube顺丰资源 HK  6
     server: 183.240.60.119
     port: 10001
     type: vmess
@@ -45,6 +35,20 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源+DE__193
+    server: 193.108.118.34
+    port: 8091
+    type: ss
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+    udp: true
+  - name: Youtube顺丰资源+DE__159
+    server: 193.108.118.34
+    port: 2375
+    type: ss
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
     udp: true
   - name: Youtube顺丰资源+HK
     server: 273b36f6-9db1-11ed-a8fc-0242ac120002.interface.buzz
@@ -53,67 +57,12 @@ proxies:
     cipher: aes-256-gcm
     password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
     udp: true
-  - name: Youtube顺丰资源 US__73
-    server: 144.34.183.34
-    port: 35721
-    type: vmess
-    uuid: c6ea2338-509f-4034-af4f-7c23edb8a659
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: 144.34.183.34
-    udp: true
-  - name: Youtube顺丰资源 香港 4
-    server: 183.240.60.119
-    port: 10001
-    type: vmess
-    uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源+NL__158
-    server: 172.99.188.99
-    port: 5003
+  - name: Youtube顺丰资源+JP
+    server: 2e91fd03-8e75-4169-dae0-3379f3903080.interface.buzz
+    port: 52632
     type: ss
     cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: Youtube顺丰资源 CN__61
-    server: 103.45.78.195
-    port: 10001
-    type: vmess
-    uuid: cb7001c7-e495-41ac-b942-f25f60523414
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源+US__151
-    server: 38.91.102.123
-    port: 9102
-    type: ss
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-    udp: true
-  - name: Youtube顺丰资源+DE__134
-    server: msmo.cenjy.com
-    port: 810
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-    udp: true
-  - name: Youtube顺丰资源+US__53
-    server: 65.49.207.221
-    port: 9059
-    type: ss
-    cipher: aes-256-gcm
-    password: gexPQBgSELQ6FYfa
+    password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
     udp: true
   - name: Youtube顺丰资源+US+7
     server: 38.91.102.123
@@ -122,12 +71,62 @@ proxies:
     cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     udp: true
-  - name: Youtube顺丰资源+DE__193
-    server: 193.108.118.34
-    port: 8091
+  - name: Youtube顺丰资源+US__151
+    server: 38.91.102.123
+    port: 9102
     type: ss
     cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
+    password: e4FCWrgpkji3QY
+    udp: true
+  - name: Youtube顺丰资源+US+4
+    server: 38.91.102.123
+    port: 9101
+    type: ss
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+    udp: true
+  - name: Youtube顺丰资源+US__53
+    server: 65.49.207.221
+    port: 9059
+    type: ss
+    cipher: aes-256-gcm
+    password: gexPQBgSELQ6FYfa
+    udp: true
+  - name: Youtube顺丰资源+US
+    server: 8cdba5d8-7555-8c18-9808-2e907c1c5177.interface.buzz
+    port: 21565
+    type: ss
+    cipher: aes-256-gcm
+    password: 2f2a534d-5685-4319-bdaf-e2ee57f2c8a1
+    udp: true
+  - name: Youtube顺丰资源+GB__138
+    server: bqmy.qenson.com
+    port: 806
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+    udp: true
+  - name: Youtube顺丰资源 GB__95
+    server: content-provider4.cdn-delivery.akamaicd.com
+    port: 443
+    type: trojan
+    password: shefelnak
+    sni: content-provider4.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 US__176
+    server: jp-01.legeth.tk
+    port: 80
+    type: vmess
+    uuid: b37bf119-e816-49bf-bc70-aa0be7c69f04
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: jp-01.legeth.tk
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -137,62 +136,65 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -211,88 +213,91 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Youtube顺丰资源 香港 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -308,63 +313,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
-      - Youtube顺丰资源+JP
-      - Youtube顺丰资源+US
-      - Youtube顺丰资源 CN__27
-      - Youtube顺丰资源+CN__1
-      - Youtube顺丰资源 CN__22
-      - Youtube顺丰资源+HK
-      - Youtube顺丰资源 US__73
-      - Youtube顺丰资源 香港 4
-      - Youtube顺丰资源+NL__158
-      - Youtube顺丰资源 CN__61
-      - Youtube顺丰资源+US__151
-      - Youtube顺丰资源+DE__134
-      - Youtube顺丰资源+US__53
-      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+荷兰+2
+      - Youtube顺丰资源+NL荷兰
+      - Youtube顺丰资源+荷兰+3
+      - Youtube顺丰资源 HK  6
       - Youtube顺丰资源+DE__193
+      - Youtube顺丰资源+DE__159
+      - Youtube顺丰资源+HK
+      - Youtube顺丰资源+JP
+      - Youtube顺丰资源+US+7
+      - Youtube顺丰资源+US__151
+      - Youtube顺丰资源+US+4
+      - Youtube顺丰资源+US__53
+      - Youtube顺丰资源+US
+      - Youtube顺丰资源+GB__138
+      - Youtube顺丰资源 GB__95
+      - Youtube顺丰资源 US__176
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
