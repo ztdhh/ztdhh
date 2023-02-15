@@ -5,94 +5,108 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: Youtube顺丰资源 哥斯达黎加
-    server: 144.22.171.182
-    port: 17207
-    type: vmess
-    uuid: a0a098af-6a76-427f-df91-3c3dd6796e22
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: 144.22.171.182
-    udp: true
-  - name: Youtube顺丰资源 FR 10
-    server: 5.135.43.119
-    port: 58732
-    type: vmess
-    uuid: d159c5be-8291-45c4-bd21-51d024658a6d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: bmi.irT.me/s0013_Official
-    udp: true
-  - name: Youtube顺丰资源+JP__126
-    server: 85.208.108.60
-    port: 8118
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-    udp: true
-  - name: Youtube顺丰资源 FR__146
-    server: france.oneusernm.xyz
-    port: 443
+  - name: Youtube顺丰资源 CN__9
+    server: hn.xiaohouzi.club
+    port: 48434
     type: trojan
-    password: d0dab49e1e
-    sni: france.oneusernm.xyz
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hn.xiaohouzi.club
     skip-cert-verify: true
     udp: true
-  - name: Youtube顺丰资源 KR__198
-    server: 152.69.230.170
-    port: 80
+  - name: Youtube顺丰资源 CN__12
+    server: hnm.xiaohouzi.club
+    port: 17107
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hnm.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__187
+    server: iplc.xiaohouzi.club
+    port: 20017
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: iplc.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__247
+    server: hnm.xiaohouzi.club
+    port: 17109
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hnm.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__139
+    server: hnm.xiaohouzi.club
+    port: 49363
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hnm.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__275
+    server: hnm.xiaohouzi.club
+    port: 17107
+    type: trojan
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    sni: hnm.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__89
+    server: 36.156.102.166
+    port: 10001
     type: vmess
-    uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: 152.69.230.170
     udp: true
-  - name: Youtube顺丰资源 SG 6
-    server: bai.hehua.pro
-    port: 443
+  - name: Youtube顺丰资源 JP 16
+    server: hn.xiaohouzi.club
+    port: 18733
+    type: trojan
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    sni: hn.xiaohouzi.club
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN__158
+    server: shcn02a.xc188.net
+    port: 10001
     type: vmess
-    uuid: 714c9973-13b3-47a1-ffe7-4cff8d143c8c
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: bai.hehua.pro
     udp: true
-  - name: 中转节点-2.62MB/s(Youtube:不良林)
-    server: stream-hefei-cmcc-111-36-21-3.edgesrv.com.edgesrv.xyz
-    port: 39006
-    type: ssr
-    cipher: chacha20-ietf
-    password: GhQrDS
-    protocol: auth_aes128_sha1
-    obfs: plain
-    protocol-param: 136731:sRneua
-    obfs-param: bilivideo.com
-    udp: true
-  - name: 中转节点-9.73MB/s(Youtube:不良林)
-    server: scloud42.jafiyun.world
-    port: 22042
+  - name: 中转节点-891.3KB/s(Youtube:不良林)
+    server: v01.gutingting.com
+    port: 20220
     type: trojan
-    password: 484a08ea-5845-3927-95bd-c1b26871cf26
-    sni: scloud42.jafiyun.world
+    password: 53bffce4-dbf7-4ed6-bd4b-6e396bda2a0e
+    sni: v01.gutingting.com
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 TW 4
+    server: 36.156.102.164
+    port: 10003
+    type: vmess
+    uuid: cb7001c7-e495-41ac-b942-f25f60523414
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 中转节点-3.72MB/s(Youtube:不良林)
+    server: sz-us-05.wallthefool.org
+    port: 15735
+    type: vmess
+    uuid: 26d453e0-a322-4956-8e5d-7709f727baf0
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
     udp: true
 proxy-groups:
@@ -103,41 +117,53 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,14 +182,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -174,41 +204,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -224,42 +266,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 300
+    interval: 30
     strategy: consistent-hashing
     proxies:
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 300
+    interval: 30
     strategy: round-robin
     proxies:
-      - Youtube顺丰资源 哥斯达黎加
-      - Youtube顺丰资源 FR 10
-      - Youtube顺丰资源+JP__126
-      - Youtube顺丰资源 FR__146
-      - Youtube顺丰资源 KR__198
-      - Youtube顺丰资源 SG 6
-      - 中转节点-2.62MB/s(Youtube:不良林)
-      - 中转节点-9.73MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__9
+      - Youtube顺丰资源 CN__12
+      - Youtube顺丰资源 CN__187
+      - Youtube顺丰资源 CN__247
+      - Youtube顺丰资源 CN__139
+      - Youtube顺丰资源 CN__275
+      - Youtube顺丰资源 CN__89
+      - Youtube顺丰资源 JP 16
+      - Youtube顺丰资源 CN__158
+      - 中转节点-891.3KB/s(Youtube:不良林)
+      - Youtube顺丰资源 TW 4
+      - 中转节点-3.72MB/s(Youtube:不良林)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
