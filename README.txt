@@ -13,27 +13,12 @@ proxies:
     sni: oss-cn-shanghai.westdatacloud.top
     skip-cert-verify: true
     udp: true
-  - name: (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-    server: liaoningddns.xyz
-    port: 11429
-    type: ssr
-    cipher: chacha20-ietf
-    password: Fhbe0z
-    protocol: auth_aes128_sha1
-    obfs: tls1.2_ticket_auth
-    protocol-param: 13518:R101Mf6pX4t
-    obfs-param: d29e813518.microsoft.com
-    udp: true
-  - name: (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-    server: liaoningddns.xyz
-    port: 11420
-    type: ssr
-    cipher: chacha20-ietf
-    password: Fhbe0z
-    protocol: auth_aes128_sha1
-    obfs: tls1.2_ticket_auth
-    protocol-param: 13518:R101Mf6pX4t
-    obfs-param: d29e813518.microsoft.com
+  - name: 荷兰-1.64MB/s(Youtube:不良林)
+    server: 185.212.200.76
+    port: 443
+    type: trojan
+    password: Sp3eDVp
+    skip-cert-verify: true
     udp: true
   - name: 中转节点-7.68MB/s(Youtube:不良林)
     server: cm01.newcome.xyz
@@ -46,68 +31,6 @@ proxies:
     protocol-param: 45641:165E0205_y
     obfs-param: 4da8845641.microsoft.com
     udp: true
-  - name: 中转节点-8.84MB/s(Youtube:不良林)
-    server: liaoningddns.xyz
-    port: 11424
-    type: ssr
-    cipher: chacha20-ietf
-    password: Fhbe0z
-    protocol: auth_aes128_sha1
-    obfs: tls1.2_ticket_auth
-    protocol-param: 13518:R101Mf6pX4t
-    obfs-param: d29e813518.microsoft.com
-    udp: true
-  - name: Youtube顺丰资源 SG新加坡1
-    server: szct.xn--dlq110j6ul.cc
-    port: 25227
-    type: trojan
-    password: ba699105-7fcf-4af0-8415-ad29b6e58d62
-    sni: szct.xn--dlq110j6ul.cc
-    skip-cert-verify: true
-    udp: true
-  - name: 荷兰-1.64MB/s(Youtube:不良林)
-    server: 185.212.200.76
-    port: 443
-    type: trojan
-    password: Sp3eDVp
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源 DE德国1
-    server: cs1.bbcloud.life
-    port: 41406
-    type: vmess
-    uuid: d0731cf1-db62-478d-aa20-3b73b98a9c6f
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: cs1.bbcloud.life
-    udp: true
-  - name: Youtube顺丰资源 SG新加坡 2
-    server: hnm.xiaohouzi.club
-    port: 27094
-    type: trojan
-    password: 21e10785-99c6-316e-a184-a03384ee06e5
-    sni: hnm.xiaohouzi.club
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源 上海市 腾讯云
-    server: 124.222.189.225
-    port: 80
-    type: vmess
-    uuid: a8c9ad5b-1f58-4234-b5fe-a895bee9a047
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: tms.dingtalk.com
-    udp: true
   - name: Youtube顺丰资源 CN__199
     server: 36.133.171.209
     port: 11023
@@ -118,14 +41,43 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: Youtube顺丰资源 CN__166
-    server: 36.134.16.190
-    port: 11023
+  - name: Youtube顺丰资源+JP__60
+    server: 85.208.108.22
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+    udp: true
+  - name: Youtube顺丰资源 DE德国7
+    server: servsermci15.numallas.shop
+    port: 2095
     type: vmess
-    uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+    uuid: 3522d2e8-e880-4e3a-a836-496a0bb92f60
     alterId: 0
     cipher: auto
     tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: servsermci15.numallas.shop
+    udp: true
+  - name: Youtube顺丰资源 TW__116
+    server: twweb.dashedu.net
+    port: 50516
+    type: vmess
+    uuid: dd28265e-cda9-4638-8072-93170203f71a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 US1
+    server: us-sjc.okman.cf
+    port: 2096
+    type: trojan
+    password: f62b7fbe09
+    sni: us-sjc.okman.cf
     skip-cert-verify: true
     udp: true
 proxy-groups:
@@ -137,34 +89,26 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -172,17 +116,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -202,17 +142,13 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -224,34 +160,26 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -259,17 +187,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -286,17 +210,13 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
@@ -304,17 +224,13 @@ proxy-groups:
     strategy: consistent-hashing
     proxies:
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -322,17 +238,13 @@ proxy-groups:
     strategy: round-robin
     proxies:
       - Youtube顺丰资源 上海市 电信
-      - (已存活1天)中转节点-9.63MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-9.34MB/s(Youtube:不良林)
-      - 中转节点-7.68MB/s(Youtube:不良林)
-      - 中转节点-8.84MB/s(Youtube:不良林)
-      - Youtube顺丰资源 SG新加坡1
       - 荷兰-1.64MB/s(Youtube:不良林)
-      - Youtube顺丰资源 DE德国1
-      - Youtube顺丰资源 SG新加坡 2
-      - Youtube顺丰资源 上海市 腾讯云
+      - 中转节点-7.68MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN__199
-      - Youtube顺丰资源 CN__166
+      - Youtube顺丰资源+JP__60
+      - Youtube顺丰资源 DE德国7
+      - Youtube顺丰资源 TW__116
+      - Youtube顺丰资源 US1
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
