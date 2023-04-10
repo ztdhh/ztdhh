@@ -5,6 +5,97 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - name: 新加坡-2.62MB/s(Youtube:不良林)
+    server: 13.214.212.14
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+  - name: (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+    server: dongguan-hongkong.cdn.0.n-virus.com
+    port: 23063
+    type: ssr
+    cipher: aes-256-ctr
+    password: miaoss.cat
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 5741:197928Tu
+    obfs-param: appleid.apple.com/853b45741
+    udp: true
+  - name: (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+    server: in-out.cdn.0.n-virus.com
+    port: 23056
+    type: ssr
+    cipher: aes-256-ctr
+    password: miaoss.cat
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 5741:197928Tu
+    obfs-param: appleid.apple.com/853b45741
+    udp: true
+  - name: (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+    server: in-out.cdn.0.n-virus.com
+    port: 23076
+    type: ssr
+    cipher: aes-256-ctr
+    password: miaoss.cat
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 5741:197928Tu
+    obfs-param: appleid.apple.com/853b45741
+    udp: true
+  - name: Youtube顺丰资源 SG新加坡4
+    server: js.76po.com
+    port: 42842
+    type: trojan
+    password: 2f671090-1261-371f-8094-6405ef59386e
+    sni: js.76po.com
+    skip-cert-verify: true
+    udp: true
+  - name: 中转节点-6.67MB/s(Youtube:不良林)
+    server: pr3.jymzffbquawl.com
+    port: 4501
+    type: ssr
+    cipher: chacha20-ietf
+    password: renzhecloud
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 200380:Leisur_0318e
+    obfs-param: 30761200380.microsoft.com
+    udp: true
+  - name: Youtube顺丰资源 CN214
+    server: yn.76po.com
+    port: 42832
+    type: trojan
+    password: cfed69d3-48e2-3820-b593-6933d0ba3607
+    sni: yn.76po.com
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 210
+    server: 36.134.16.190
+    port: 11023
+    type: vmess
+    uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 美国270
+    server: sy13.tiktok00002.win
+    port: 20243
+    type: vmess
+    uuid: a587750c-f180-465e-b939-fff18e05cfed
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: grpc
+    servername: sy13.tiktok00002.win
+    grpc-opts:
+      grpc-service-name: sy13.tiktok00002.win
+    udp: true
   - name: Youtube顺丰资源 VN越南1
     server: vpn.choomai.xyz
     port: 80
@@ -111,17 +202,6 @@ proxies:
     sni: sa.steamdownload.top
     skip-cert-verify: true
     udp: true
-  - name: 中转节点-6.67MB/s(Youtube:不良林)
-    server: pr3.jymzffbquawl.com
-    port: 4501
-    type: ssr
-    cipher: chacha20-ietf
-    password: renzhecloud
-    protocol: auth_aes128_sha1
-    obfs: plain
-    protocol-param: 200380:Leisur_0318e
-    obfs-param: 30761200380.microsoft.com
-    udp: true
   - name: Youtube顺丰资源 TW127
     server: polotw1.applebench.tech
     port: 56568
@@ -145,47 +225,6 @@ proxies:
     ws-path: /
     ws-headers:
       Host: pm.motori.pw
-    udp: true
-  - name: Youtube顺丰资源 SG新加坡4
-    server: js.76po.com
-    port: 42842
-    type: trojan
-    password: 2f671090-1261-371f-8094-6405ef59386e
-    sni: js.76po.com
-    skip-cert-verify: true
-    udp: true
-  - name: (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-    server: in-out.cdn.0.n-virus.com
-    port: 23056
-    type: ssr
-    cipher: aes-256-ctr
-    password: miaoss.cat
-    protocol: auth_aes128_md5
-    obfs: tls1.2_ticket_auth
-    protocol-param: 5741:197928Tu
-    obfs-param: appleid.apple.com/853b45741
-    udp: true
-  - name: (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-    server: in-out.cdn.0.n-virus.com
-    port: 23076
-    type: ssr
-    cipher: aes-256-ctr
-    password: miaoss.cat
-    protocol: auth_aes128_md5
-    obfs: tls1.2_ticket_auth
-    protocol-param: 5741:197928Tu
-    obfs-param: appleid.apple.com/853b45741
-    udp: true
-  - name: (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
-    server: dongguan-hongkong.cdn.0.n-virus.com
-    port: 23063
-    type: ssr
-    cipher: aes-256-ctr
-    password: miaoss.cat
-    protocol: auth_aes128_md5
-    obfs: tls1.2_ticket_auth
-    protocol-param: 5741:197928Tu
-    obfs-param: appleid.apple.com/853b45741
     udp: true
   - name: Youtube顺丰资源+TR土耳其
     server: cn1.applebench.tech
@@ -213,7 +252,7 @@ proxies:
     port: 45002
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -271,7 +310,7 @@ proxies:
     port: 44902
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -297,13 +336,6 @@ proxies:
     ws-headers:
       Host: 146.190.106.136
     udp: true
-  - name: 新加坡-2.62MB/s(Youtube:不良林)
-    server: 13.214.212.14
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
   - name: 中转节点-7.91MB/s(Youtube:不良林)
     server: 120.232.179.161
     port: 63078
@@ -323,7 +355,7 @@ proxies:
     port: 59010
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -333,7 +365,7 @@ proxies:
     port: 50015
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
@@ -346,6 +378,15 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -354,13 +395,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -374,7 +410,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -383,6 +418,15 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -391,13 +435,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -411,7 +450,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -421,6 +459,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -429,13 +476,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -449,7 +491,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -471,6 +512,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -479,13 +529,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -499,7 +544,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -513,6 +557,15 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -521,13 +574,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -541,7 +589,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -550,6 +597,15 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -558,13 +614,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -578,7 +629,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -588,6 +638,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -596,13 +655,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -616,7 +670,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
@@ -635,6 +688,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -643,13 +705,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -663,16 +720,24 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 300
+    interval: 30
     strategy: consistent-hashing
     proxies:
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -681,13 +746,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -701,16 +761,24 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 300
+    interval: 30
     strategy: round-robin
     proxies:
+      - 新加坡-2.62MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
+      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
+      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
+      - Youtube顺丰资源 SG新加坡4
+      - 中转节点-6.67MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN214
+      - Youtube顺丰资源 210
+      - Youtube顺丰资源 美国270
       - Youtube顺丰资源 VN越南1
       - Youtube顺丰资源 美国160
       - Youtube顺丰资源 美国158
@@ -719,13 +787,8 @@ proxy-groups:
       - Youtube顺丰资源 DE德国7
       - Youtube顺丰资源 美国63
       - Youtube顺丰资源 JP日本2
-      - 中转节点-6.67MB/s(Youtube:不良林)
       - Youtube顺丰资源 TW127
       - Youtube顺丰资源 美国99
-      - Youtube顺丰资源 SG新加坡4
-      - (已存活1天)中转节点-1.96MB/s(Youtube:不良林)
-      - (已存活2天)中转节点-7.91MB/s(Youtube:不良林)
-      - (已存活1天)中转节点-3.85MB/s(Youtube:不良林)
       - Youtube顺丰资源+TR土耳其
       - 荷兰-3.62MB/s(Youtube:不良林)
       - 韩国-237.5KB/s(Youtube:不良林)
@@ -739,7 +802,6 @@ proxy-groups:
       - 荷兰-293.5KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - Youtube顺丰资源 美国219
-      - 新加坡-2.62MB/s(Youtube:不良林)
       - 中转节点-7.91MB/s(Youtube:不良林)
       - 美国-5.34MB/s(Youtube:不良林)
       - 美国-4.54MB/s(Youtube:不良林)
