@@ -5,6 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - name: 美国-5.45MB/s(Youtube:不良林)
+    server: 104.233.191.182
+    port: 443
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /path/031730091420
+    ws-headers:
+      Host: 104.233.191.182
+    udp: true
   - name: US_114 |29.30Mb
     server: 13.213.34.54
     port: 443
@@ -12,29 +26,29 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     udp: true
-  - name: 塞舌尔-1.40MB/s(Youtube:不良林)
-    server: 154.85.0.237
-    port: 48823
+  - name: 美国-4.95MB/s(Youtube:不良林)
+    server: 142.0.132.41
+    port: 50015
     type: vmess
-    uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: Youtube顺丰资源+CA40
-    server: 172.105.0.75
-    port: 37883
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: "7495178275"
+  - name: Youtube顺丰资源 美国
+    server: 152.70.74.66
+    port: 443
+    type: trojan
+    password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
+    skip-cert-verify: true
     udp: true
-  - name: US_126
+  - name: 荷兰-2.67MB/s(Youtube:不良林)
     server: 172.99.188.99
-    port: 5001
+    port: 8882
     type: ss
     cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
+    password: kDWvXYZoTBcGkC4
     udp: true
   - name: _02 | 4.44Mb
     server: 18.141.204.24
@@ -43,21 +57,18 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     udp: true
-  - name: 中转节点-315.2KB/s(Youtube:不良林)
-    server: 183.232.117.54
-    port: 61012
-    type: trojan
-    password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa
-    skip-cert-verify: true
-    udp: true
-  - name: _11 | 1.70Mb
-    server: 35.161.78.22
-    port: 443
+  - name: 美国-1.50MB/s(Youtube:不良林)
+    server: 216.52.183.242
+    port: 80
     type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
+    cipher: aes-128-gcm
+    password: 83XvX4Vo%*3a
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: ""
     udp: true
-  - name: "|10.67Mb"
+  - name: Youtube顺丰资源 CN__199
     server: 36.133.171.209
     port: 11023
     type: vmess
@@ -67,7 +78,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: Youtube顺丰资源 CN__266
+  - name: Youtube顺丰资源 CN77
     server: 36.134.16.171
     port: 11023
     type: vmess
@@ -104,14 +115,7 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     udp: true
-  - name: AU_72 | 7.38Mb
-    server: 43.206.239.7
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: 美国-1.46MB/s(Youtube:不良林)
+  - name: 美国-5.52MB/s(Youtube:不良林)
     server: 45.58.180.173
     port: 55211
     type: vmess
@@ -121,48 +125,20 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: Relay_-🇺🇸US_09 | 9.37Mb
-    server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 5000
+  - name: 台湾-2.70MB/s(Youtube:不良林)
+    server: fn600mlines020.svcline.com
+    port: 995
     type: ss
     cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: 中转节点-6.26MB/s(Youtube:不良林)
-    server: 139.226.136.165
-    port: 35509
-    type: ss
-    cipher: aes-256-gcm
-    password: 4d5a811b-2289-43c3-a042-abd484e7505b
-    udp: true
-  - name: 印度-364.9KB/s(Youtube:不良林)
-    server: 152.70.74.66
-    port: 443
-    type: trojan
-    password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
-    skip-cert-verify: true
-    udp: true
-  - name: 美国-1.54MB/s(Youtube:不良林)
-    server: 98.126.31.99
-    port: 42321
-    type: vmess
-    uuid: c8fde75a-630b-4f84-8c99-eff6765ab1a2
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /us7/getData
-    ws-headers:
-      Host: 98.126.31.99
-    udp: true
-  - name: 台湾-201.2KB/s(Youtube:不良林)
-    server: bgptw4.cnamazon.sbs
-    port: 443
-    type: trojan
-    password: 88a7eb00-f011-4b70-ac2c-a06ef3962b70
-    sni: bgptw4.cnamazon.sbs
-    skip-cert-verify: true
+    password: c35ab0e35b36
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: fn600mlines020.svcline.com
+      path: /bdywriiiad
+      tls: true
+      mux: true
+      skip-cert-verify: true
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -172,74 +148,59 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -258,104 +219,84 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -371,75 +312,60 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 30
+    interval: 300
     strategy: consistent-hashing
     proxies:
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 30
+    interval: 300
     strategy: round-robin
     proxies:
+      - 美国-5.45MB/s(Youtube:不良林)
       - US_114 |29.30Mb
-      - 塞舌尔-1.40MB/s(Youtube:不良林)
-      - Youtube顺丰资源+CA40
-      - US_126
+      - 美国-4.95MB/s(Youtube:不良林)
+      - Youtube顺丰资源 美国
+      - 荷兰-2.67MB/s(Youtube:不良林)
       - _02 | 4.44Mb
-      - 中转节点-315.2KB/s(Youtube:不良林)
-      - _11 | 1.70Mb
-      - "|10.67Mb"
-      - Youtube顺丰资源 CN__266
+      - 美国-1.50MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN__199
+      - Youtube顺丰资源 CN77
       - Youtube顺丰资源 CN80
       - Youtube顺丰资源 CN184
       - 韩国-689.1KB/s(Youtube:不良林)
-      - AU_72 | 7.38Mb
-      - 美国-1.46MB/s(Youtube:不良林)
-      - Relay_-🇺🇸US_09 | 9.37Mb
-      - 中转节点-6.26MB/s(Youtube:不良林)
-      - 印度-364.9KB/s(Youtube:不良林)
-      - 美国-1.54MB/s(Youtube:不良林)
-      - 台湾-201.2KB/s(Youtube:不良林)
+      - 美国-5.52MB/s(Youtube:不良林)
+      - 台湾-2.70MB/s(Youtube:不良林)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
