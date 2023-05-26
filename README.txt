@@ -38,6 +38,17 @@ proxies:
     protocol-param: 2537:mktbEZ
     obfs-param: wns.windows.com
     udp: true
+  - name: (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
+    server: nn8.boom.skin
+    port: 47000
+    type: ssr
+    cipher: aes-256-cfb
+    password: Uk92CS
+    protocol: auth_aes128_sha1
+    obfs: http_simple
+    protocol-param: 23957:nZCp9Y
+    obfs-param: download.windowsupdate.com
+    udp: true
   - name: 日本-6.95MB/s(Youtube:不良林)
     server: fscsg.fscloud123456789.com
     port: 443
@@ -71,6 +82,24 @@ proxies:
   - name: 美国-421.9KB/s(Youtube:不良林)
     server: 142.0.132.38
     port: 50015
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 日本-6.95MB/s(Youtube:不良林) 2
+    server: fscsg.fscloud123456789.com
+    port: 443
+    type: trojan
+    password: 38541d74-6ffd-4352-988d-715ee989947c
+    sni: fscsg.fscloud123456789.com
+    skip-cert-verify: true
+    udp: true
+  - name: 美国-5.41MB/s(Youtube:不良林)
+    server: 38.63.2.16
+    port: 57723
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
@@ -146,11 +175,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -165,11 +197,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -185,11 +220,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -217,11 +255,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -242,11 +283,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -261,11 +305,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -281,11 +328,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -310,11 +360,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -330,11 +383,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
@@ -350,11 +406,14 @@ proxy-groups:
       - (已存活3天)中转节点-11.75MB/s(Youtube:不良林)
       - (已存活6天)中转节点-13.38MB/s(Youtube:不良林)
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - (已存活6天)中转节点-11.74MB/s(Youtube:不良林)
       - 日本-6.95MB/s(Youtube:不良林)
       - 韩国-504.2KB/s(Youtube:不良林)
       - Youtube顺丰资源 美国
       - 新加坡-2.54MB/s(Youtube:不良林)
       - 美国-421.9KB/s(Youtube:不良林)
+      - 日本-6.95MB/s(Youtube:不良林) 2
+      - 美国-5.41MB/s(Youtube:不良林)
       - (已存活2天)中转节点-11.06MB/s(Youtube:不良林)
       - Youtube顺丰资源 CN139
       - Youtube顺丰资源 IN印度2
