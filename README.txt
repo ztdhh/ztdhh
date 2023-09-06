@@ -5,6 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - name: Youtube顺丰资源 CN6
+    server: hinet3.relay-idc.top
+    port: 12983
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN10
+    server: hkbgp2.relay-idc.top
+    port: 20930
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN11
+    server: hinet1.relay-idc.top
+    port: 12983
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
   - name: 中转节点-6.51MB/s(Youtube:不良林)
     server: sg-05.xm1s.top
     port: 458
@@ -16,16 +37,121 @@ proxies:
     protocol-param: 2537:mktbEZ
     obfs-param: wns.windows.com
     udp: true
-  - name: 中转节点-2.37MB/s(Youtube:不良林)
-    server: sg-01.xm1s.top
-    port: 458
+  - name: Youtube顺丰资源 CN13
+    server: jp2.relay-idc.top
+    port: 27934
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN9
+    server: sg1.relay-idc.top
+    port: 33657
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN3
+    server: jp3.relay-idc.top
+    port: 27934
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN1
+    server: jp1.relay-idc.top
+    port: 27934
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN2
+    server: hkbgp1.relay-idc.top
+    port: 20930
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN261
+    server: hz.xzyunjiasu.icu
+    port: 36671
+    type: ss
+    cipher: aes-256-gcm
+    password: 2c69b81f-1298-44b3-a76e-4ed46075fd78
+    udp: true
+  - name: Youtube顺丰资源 CN21
+    server: th1.relay-idc.top
+    port: 27585
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN32
+    server: th2.relay-idc.top
+    port: 27585
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN78
+    server: mas.relay-idc.top
+    port: 48907
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: (已存活1天)中转节点-6.64MB/s
+    server: cm01.newcome.xyz
+    port: 3704
     type: ssr
-    cipher: dummy
-    password: MKaQhd
-    protocol: auth_chain_b
+    cipher: chacha20-ietf
+    password: jFa4F1
+    protocol: auth_aes128_sha1
     obfs: plain
-    protocol-param: 2730:wNHO8J
-    obfs-param: wns.windows.com
+    protocol-param: 84263:3gj7aB
+    obfs-param: c75be84263.microsoft.com
+    udp: true
+  - name: Youtube顺丰资源 CN95
+    server: uk1.relay-idc.top
+    port: 30517
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN59
+    server: de1.relay-idc.top
+    port: 20187
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN195
+    server: free.node.kk-proxy.pro
+    port: 55928
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 8f3bbb09-53f9-49ae-9655-972fa6409529
+    udp: true
+  - name: Youtube顺丰资源 CN38
+    server: free.node.kk-proxy.pro
+    port: 54455
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 8f3bbb09-53f9-49ae-9655-972fa6409529
+    udp: true
+  - name: Youtube顺丰资源 CN25
+    server: 25us1.relay-idc.top
+    port: 11363
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN62
+    server: uk2.relay-idc.top
+    port: 30517
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
   - name: Youtube顺丰资源 美国210
     server: mg.beautyandbeast.top
@@ -41,47 +167,68 @@ proxies:
     grpc-opts:
       grpc-service-name: mg.beautyandbeast.top
     udp: true
-  - name: Youtube顺丰资源 CN98
-    server: hk2.v3.zz.cn.fuckword.club
-    port: 47835
+  - name: peasoft-12|🇺🇸 美国_0903693
+    server: 142.4.109.68
+    port: 46672
     type: vmess
-    uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-    alterId: 0
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 匈牙利优化入口(频道:马克吐温)
-    server: hefei.chiguayun.cc
-    port: 27139
+  - name: Youtube顺丰资源 DE133
+    server: 213.202.216.14
+    port: 443
+    type: trojan
+    password: e5e88a39-31ee-4b33-9213-5b266dbcd4b6
+    skip-cert-verify: true
+    udp: true
+  - name: Youtube顺丰资源 CN14
+    server: hkt.relay-idc.top
+    port: 29575
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
-  - name: 瑞士高速入口(频道:马克吐温)
-    server: foshan.chiguayun.cc
-    port: 27119
+  - name: Youtube顺丰资源 CN218
+    server: free.314156.xyz
+    port: 44465
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
+    cipher: aes-128-gcm
+    password: 921648c4-da48-4f89-a152-1048f647f064
     udp: true
-  - name: 菲律宾高速入口(频道:马克吐温)
-    server: foshan.chiguayun.cc
-    port: 27128
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
-    udp: true
-  - name: (已存活1天)中转节点-6.64MB/s
-    server: cm01.newcome.xyz
-    port: 3704
+  - name: 中转节点-2.37MB/s(Youtube:不良林)
+    server: sg-01.xm1s.top
+    port: 458
     type: ssr
-    cipher: chacha20-ietf
-    password: jFa4F1
-    protocol: auth_aes128_sha1
+    cipher: dummy
+    password: MKaQhd
+    protocol: auth_chain_b
     obfs: plain
-    protocol-param: 84263:3gj7aB
-    obfs-param: c75be84263.microsoft.com
+    protocol-param: 2730:wNHO8J
+    obfs-param: wns.windows.com
+    udp: true
+  - name: Youtube顺丰资源 CN7
+    server: hinet2.relay-idc.top
+    port: 12983
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN12
+    server: sg2.relay-idc.top
+    port: 33657
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: Youtube顺丰资源 CN20
+    server: sg3.relay-idc.top
+    port: 33657
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
   - name: 美国-2.57MB/s(Youtube:不良林)
     server: 216.52.183.244
@@ -98,29 +245,33 @@ proxies:
       mux: true
       skip-cert-verify: true
     udp: true
-  - name: 德国高速入口(频道:马克吐温)
-    server: 213.202.216.14
-    port: 443
-    type: trojan
-    password: b3b0f232-905d-49a8-a2a5-562acad8ef99
-    skip-cert-verify: true
+  - name: Youtube顺丰资源 CN252
+    server: free.node.kk-proxy.pro
+    port: 24962
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 8f3bbb09-53f9-49ae-9655-972fa6409529
     udp: true
-  - name: Youtube顺丰资源 DE133
-    server: 213.202.216.14
-    port: 443
-    type: trojan
-    password: e5e88a39-31ee-4b33-9213-5b266dbcd4b6
-    skip-cert-verify: true
+  - name: 菲律宾高速入口(频道:马克吐温)
+    server: foshan.chiguayun.cc
+    port: 27128
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
     udp: true
-  - name: Youtube顺丰资源 CN131
-    server: 2.8.1.fuckppppp.today
-    port: 20000
-    type: vmess
-    uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
+  - name: 匈牙利优化入口(频道:马克吐温)
+    server: hefei.chiguayun.cc
+    port: 27139
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
+    udp: true
+  - name: 瑞士高速入口(频道:马克吐温)
+    server: foshan.chiguayun.cc
+    port: 27119
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -130,53 +281,119 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -195,18 +412,40 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -217,53 +456,119 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -279,54 +584,120 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
+      - Youtube顺丰资源 CN6
+      - Youtube顺丰资源 CN10
+      - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN13
+      - Youtube顺丰资源 CN9
+      - Youtube顺丰资源 CN3
+      - Youtube顺丰资源 CN1
+      - Youtube顺丰资源 CN2
+      - Youtube顺丰资源 CN261
+      - Youtube顺丰资源 CN21
+      - Youtube顺丰资源 CN32
+      - Youtube顺丰资源 CN78
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN95
+      - Youtube顺丰资源 CN59
+      - Youtube顺丰资源 CN195
+      - Youtube顺丰资源 CN38
+      - Youtube顺丰资源 CN25
+      - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
-      - Youtube顺丰资源 CN98
+      - peasoft-12|🇺🇸 美国_0903693
+      - Youtube顺丰资源 DE133
+      - Youtube顺丰资源 CN14
+      - Youtube顺丰资源 CN218
+      - 中转节点-2.37MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN7
+      - Youtube顺丰资源 CN12
+      - Youtube顺丰资源 CN20
+      - 美国-2.57MB/s(Youtube:不良林)
+      - Youtube顺丰资源 CN252
+      - 菲律宾高速入口(频道:马克吐温)
       - 匈牙利优化入口(频道:马克吐温)
       - 瑞士高速入口(频道:马克吐温)
-      - 菲律宾高速入口(频道:马克吐温)
-      - (已存活1天)中转节点-6.64MB/s
-      - 美国-2.57MB/s(Youtube:不良林)
-      - 德国高速入口(频道:马克吐温)
-      - Youtube顺丰资源 DE133
-      - Youtube顺丰资源 CN131
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
