@@ -5,6 +5,34 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - name: YouTube梦歌|广港IEPL|Netflix_112
+    server: 103.160.204.72
+    port: 80
+    type: vmess
+    uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 10.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_139
+    server: 172.64.105.187
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
   - name: Youtube顺丰资源 CN6
     server: hinet3.relay-idc.top
     port: 12983
@@ -12,12 +40,68 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_136
+    server: 103.160.204.215
+    port: 80
+    type: vmess
+    uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 12.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_140
+    server: 103.160.204.8
+    port: 80
+    type: vmess
+    uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 12.wyhkaa0.gq
+    udp: true
   - name: Youtube顺丰资源 CN10
     server: hkbgp2.relay-idc.top
     port: 20930
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_114
+    server: cdn.twitter.now.cc
+    port: 443
+    type: vmess
+    uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /ikun
+    ws-headers:
+      Host: us.twittei.me
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_156
+    server: 172.64.203.172
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
     udp: true
   - name: Youtube顺丰资源 CN11
     server: hinet1.relay-idc.top
@@ -37,12 +121,68 @@ proxies:
     protocol-param: 2537:mktbEZ
     obfs-param: wns.windows.com
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_148
+    server: cf-lt.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_113
+    server: 104.31.16.14
+    port: 80
+    type: vmess
+    uuid: bb5bb9c0-48b4-11ee-b337-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /@hopev2ray
+    ws-headers:
+      Host: us-20.0rd.net
+    udp: true
   - name: Youtube顺丰资源 CN13
     server: jp2.relay-idc.top
     port: 27934
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_142
+    server: 103.160.204.36
+    port: 80
+    type: vmess
+    uuid: 86d6d87f-497e-4be5-c30b-fb7c4eb78096
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 12.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_133
+    server: 173.245.49.236
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
     udp: true
   - name: Youtube顺丰资源 CN9
     server: sg1.relay-idc.top
@@ -51,12 +191,68 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_1
+    server: 120.233.27.145
+    port: 14008
+    type: trojan
+    password: 2e724af9-64f0-353b-8a68-d5a9223b08b1
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_151
+    server: 141.101.115.65
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: dp3.scproxy.top
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_19
+    server: yd.qianggewangluo.buzz
+    port: 10807
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
   - name: Youtube顺丰资源 CN3
     server: jp3.relay-idc.top
     port: 27934
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_115
+    server: 130.162.158.81
+    port: 80
+    type: vmess
+    uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 10.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_141
+    server: 172.67.196.139
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
     udp: true
   - name: Youtube顺丰资源 CN1
     server: jp1.relay-idc.top
@@ -65,12 +261,61 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_24
+    server: yd.qianggewangluo.buzz
+    port: 10812
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
   - name: Youtube顺丰资源 CN2
     server: hkbgp1.relay-idc.top
     port: 20930
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_111
+    server: 104.17.227.121
+    port: 2095
+    type: vmess
+    uuid: 32af4006-0698-4910-806c-b813074f36eb
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 13.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_132
+    server: 16.wyhkaa0.gq
+    port: 80
+    type: vmess
+    uuid: 7ca21098-691c-4c12-8aac-934b21635423
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 16.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_125
+    server: 104.17.199.183
+    port: 2095
+    type: vmess
+    uuid: 32af4006-0698-4910-806c-b813074f36eb
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 13.wyhkaa0.gq
     udp: true
   - name: Youtube顺丰资源 CN261
     server: hz.xzyunjiasu.icu
@@ -79,6 +324,20 @@ proxies:
     cipher: aes-256-gcm
     password: 2c69b81f-1298-44b3-a76e-4ed46075fd78
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_138
+    server: dongtaiwang2.com
+    port: 443
+    type: vmess
+    uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dongtaiwang.com
+    ws-headers:
+      Host: 3.freek1.xyz
+    udp: true
   - name: Youtube顺丰资源 CN21
     server: th1.relay-idc.top
     port: 27585
@@ -86,12 +345,82 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_130
+    server: 12.wyhkaa0.gq
+    port: 2095
+    type: vmess
+    uuid: a04e2923-1a96-4998-ec89-2634f7197ebf
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 12.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_150
+    server: 162.159.247.47
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: dp3.scproxy.top
+    udp: true
   - name: Youtube顺丰资源 CN32
     server: th2.relay-idc.top
     port: 27585
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_143
+    server: sdygarm.e5outllok.me
+    port: 80
+    type: vmess
+    uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: sdygarm.e5outllok.me
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_108
+    server: yd1.992688.xyz
+    port: 8880
+    type: vmess
+    uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: vceu3.vpn66.eu.org
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_22
+    server: yd.qianggewangluo.buzz
+    port: 10810
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_17
+    server: yd.qianggewangluo.buzz
+    port: 10805
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
     udp: true
   - name: Youtube顺丰资源 CN78
     server: mas.relay-idc.top
@@ -146,6 +475,55 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_18
+    server: yd.qianggewangluo.buzz
+    port: 10806
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_16
+    server: yd.qianggewangluo.buzz
+    port: 10804
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_25
+    server: yd.qianggewangluo.buzz
+    port: 10813
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_134
+    server: 10.wyhkaa0.gq
+    port: 80
+    type: vmess
+    uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 10.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_27
+    server: yd.qianggewangluo.buzz
+    port: 10815
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_15
+    server: yd.qianggewangluo.buzz
+    port: 10803
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
   - name: Youtube顺丰资源 CN62
     server: uk2.relay-idc.top
     port: 30517
@@ -167,6 +545,20 @@ proxies:
     grpc-opts:
       grpc-service-name: mg.beautyandbeast.top
     udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_13
+    server: yd.qianggewangluo.buzz
+    port: 10801
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_28
+    server: yd.qianggewangluo.buzz
+    port: 10816
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
   - name: peasoft-12|🇺🇸 美国_0903693
     server: 142.4.109.68
     port: 46672
@@ -177,11 +569,73 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_21
+    server: yd.qianggewangluo.buzz
+    port: 10809
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_105
+    server: 172.67.49.28
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_14
+    server: yd.qianggewangluo.buzz
+    port: 10802
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_20
+    server: yd.qianggewangluo.buzz
+    port: 10808
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
   - name: Youtube顺丰资源 DE133
     server: 213.202.216.14
     port: 443
     type: trojan
     password: e5e88a39-31ee-4b33-9213-5b266dbcd4b6
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_12
+    server: zjxc.pmxu.link
+    port: 40270
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_31
+    server: yd.qianggewangluo.buzz
+    port: 10818
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_2
+    server: zjxc.pmxu.link
+    port: 36988
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
     udp: true
   - name: Youtube顺丰资源 CN14
@@ -198,6 +652,114 @@ proxies:
     cipher: aes-128-gcm
     password: 921648c4-da48-4f89-a152-1048f647f064
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_155
+    server: 172.64.202.22
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_104
+    server: cloudqwq.cf
+    port: 80
+    type: vmess
+    uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: nl10gbps.6577617.xyz
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_127
+    server: 4.3.1.fuckppppp.today
+    port: 58418
+    type: vmess
+    uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_153
+    server: 172.67.120.174
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_149
+    server: 172.67.92.119
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_123
+    server: fd.shabijichang.com
+    port: 80
+    type: vmess
+    uuid: 6f7404b8-9933-4230-9f54-0bcca0a761a6
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: fhc.shabijichang.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_147
+    server: 172.67.59.39
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_120
+    server: 172.67.211.253
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
   - name: 中转节点-2.37MB/s(Youtube:不良林)
     server: sg-01.xm1s.top
     port: 458
@@ -209,12 +771,75 @@ proxies:
     protocol-param: 2730:wNHO8J
     obfs-param: wns.windows.com
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_145
+    server: 172.67.6.189
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
   - name: Youtube顺丰资源 CN7
     server: hinet2.relay-idc.top
     port: 12983
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_118
+    server: 103.160.204.12
+    port: 80
+    type: vmess
+    uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 10.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_144
+    server: 162.159.253.16
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_146
+    server: 172.67.148.210
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: ca.ilovescp.com
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_117
+    server: free.node.kk-proxy.pro
+    port: 24961
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: d09be431-a34b-4ab0-a0fc-a991a9d144ff
     udp: true
   - name: Youtube顺丰资源 CN12
     server: sg2.relay-idc.top
@@ -223,12 +848,68 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
     udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_152
+    server: 190.93.244.188
+    port: 8080
+    type: vmess
+    uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /blue
+    ws-headers:
+      Host: ecc.vtcss.top
+    udp: true
   - name: Youtube顺丰资源 CN20
     server: sg3.relay-idc.top
     port: 33657
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 174c4266-8cb8-4344-a63b-8bf827bd6730
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_121
+    server: 172.67.188.127
+    port: 80
+    type: vmess
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /opt/video/images
+    ws-headers:
+      Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_119
+    server: 103.160.204.108
+    port: 80
+    type: vmess
+    uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /TG:@hkaa0
+    ws-headers:
+      Host: 10.wyhkaa0.gq
+    udp: true
+  - name: YouTube梦歌|广港IEPL|Netflix_122
+    server: 172.67.87.175
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: lv2.scproxy.top
     udp: true
   - name: 美国-2.57MB/s(Youtube:不良林)
     server: 216.52.183.244
@@ -245,12 +926,96 @@ proxies:
       mux: true
       skip-cert-verify: true
     udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_3
+    server: zjxc.pmxu.link
+    port: 44207
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|江港隧道|Netflix_99
+    server: zjxc.pmxu.link
+    port: 30839
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_23
+    server: yd.qianggewangluo.buzz
+    port: 10811
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_26
+    server: yd.qianggewangluo.buzz
+    port: 10814
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: c0ba1af3-49a8-447e-ad9f-185889cfe0f2
+    udp: true
+  - name: YouTube梦歌|江港隧道|Netflix_44
+    server: zjxc.pmxu.link
+    port: 19278
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_1 2
+    server: zjxc.pmxu.link
+    port: 30839
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|江港隧道|Netflix_29
+    server: zjxc.pmxu.link
+    port: 32049
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_8
+    server: zjxc.pmxu.link
+    port: 25153
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
   - name: Youtube顺丰资源 CN252
     server: free.node.kk-proxy.pro
     port: 24962
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 8f3bbb09-53f9-49ae-9655-972fa6409529
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_10
+    server: zjxc.pmxu.link
+    port: 32049
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
   - name: 菲律宾高速入口(频道:马克吐温)
     server: foshan.chiguayun.cc
@@ -259,6 +1024,16 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
     udp: true
+  - name: YouTube梦歌|杭港隧道|NETFLIX_61
+    server: zjxc.pmxu.link
+    port: 40270
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
   - name: 匈牙利优化入口(频道:马克吐温)
     server: hefei.chiguayun.cc
     port: 27139
@@ -266,12 +1041,52 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
     udp: true
+  - name: YouTube梦歌|江港隧道|Netflix_1
+    server: zjxc.pmxu.link
+    port: 25153
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_9
+    server: zjxc.pmxu.link
+    port: 19278
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|广港隧道|NETFLIX_11
+    server: zjxc.pmxu.link
+    port: 15052
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
   - name: 瑞士高速入口(频道:马克吐温)
     server: foshan.chiguayun.cc
     port: 27119
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 6b9b67c0-8447-4804-a5b3-e5ce7f14b777
+    udp: true
+  - name: YouTube梦歌|江港隧道|Netflix_9
+    server: zjxc.pmxu.link
+    port: 15052
+    type: vmess
+    uuid: d05ae6c3-f066-3739-a30e-f0d02ea674b4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -281,18 +1096,44 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -300,38 +1141,110 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -339,39 +1252,111 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -379,21 +1364,67 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -412,18 +1443,44 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -431,43 +1488,187 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
+      - YouTube梦歌|广港隧道|NETFLIX_24
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
+      - YouTube梦歌|广港IEPL|Netflix_138
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
+      - YouTube梦歌|广港IEPL|Netflix_145
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
+      - YouTube梦歌|广港IEPL|Netflix_152
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
+      - YouTube梦歌|广港隧道|NETFLIX_10
+      - YouTube梦歌|杭港隧道|NETFLIX_61
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
+      - YouTube梦歌|江港隧道|Netflix_9
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -475,38 +1676,110 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -514,39 +1787,111 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -554,21 +1899,67 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -584,18 +1975,44 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -603,39 +2020,111 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -643,39 +2132,111 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
+      - YouTube梦歌|广港IEPL|Netflix_112
+      - YouTube梦歌|广港IEPL|Netflix_139
       - Youtube顺丰资源 CN6
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube梦歌|广港IEPL|Netflix_140
       - Youtube顺丰资源 CN10
+      - YouTube梦歌|广港IEPL|Netflix_114
+      - YouTube梦歌|广港IEPL|Netflix_156
       - Youtube顺丰资源 CN11
       - 中转节点-6.51MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_148
+      - YouTube梦歌|广港IEPL|Netflix_113
       - Youtube顺丰资源 CN13
+      - YouTube梦歌|广港IEPL|Netflix_142
+      - YouTube梦歌|广港IEPL|Netflix_133
       - Youtube顺丰资源 CN9
+      - YouTube梦歌|广港隧道|NETFLIX_1
+      - YouTube梦歌|广港IEPL|Netflix_151
+      - YouTube梦歌|广港隧道|NETFLIX_19
       - Youtube顺丰资源 CN3
+      - YouTube梦歌|广港IEPL|Netflix_115
+      - YouTube梦歌|广港IEPL|Netflix_141
       - Youtube顺丰资源 CN1
+      - YouTube梦歌|广港隧道|NETFLIX_24
       - Youtube顺丰资源 CN2
+      - YouTube梦歌|广港IEPL|Netflix_111
+      - YouTube梦歌|广港IEPL|Netflix_132
+      - YouTube梦歌|广港IEPL|Netflix_125
       - Youtube顺丰资源 CN261
+      - YouTube梦歌|广港IEPL|Netflix_138
       - Youtube顺丰资源 CN21
+      - YouTube梦歌|广港IEPL|Netflix_130
+      - YouTube梦歌|广港IEPL|Netflix_150
       - Youtube顺丰资源 CN32
+      - YouTube梦歌|广港IEPL|Netflix_143
+      - YouTube梦歌|广港IEPL|Netflix_108
+      - YouTube梦歌|广港隧道|NETFLIX_22
+      - YouTube梦歌|广港隧道|NETFLIX_17
       - Youtube顺丰资源 CN78
       - (已存活1天)中转节点-6.64MB/s
       - Youtube顺丰资源 CN95
@@ -683,21 +2244,67 @@ proxy-groups:
       - Youtube顺丰资源 CN195
       - Youtube顺丰资源 CN38
       - Youtube顺丰资源 CN25
+      - YouTube梦歌|广港隧道|NETFLIX_18
+      - YouTube梦歌|广港隧道|NETFLIX_16
+      - YouTube梦歌|广港隧道|NETFLIX_25
+      - YouTube梦歌|广港IEPL|Netflix_134
+      - YouTube梦歌|广港隧道|NETFLIX_27
+      - YouTube梦歌|广港隧道|NETFLIX_15
       - Youtube顺丰资源 CN62
       - Youtube顺丰资源 美国210
+      - YouTube梦歌|广港隧道|NETFLIX_13
+      - YouTube梦歌|广港隧道|NETFLIX_28
       - peasoft-12|🇺🇸 美国_0903693
+      - YouTube梦歌|广港隧道|NETFLIX_21
+      - YouTube梦歌|广港IEPL|Netflix_105
+      - YouTube梦歌|广港隧道|NETFLIX_14
+      - YouTube梦歌|广港隧道|NETFLIX_20
       - Youtube顺丰资源 DE133
+      - YouTube梦歌|广港隧道|NETFLIX_12
+      - YouTube梦歌|广港隧道|NETFLIX_31
+      - YouTube梦歌|广港隧道|NETFLIX_2
       - Youtube顺丰资源 CN14
       - Youtube顺丰资源 CN218
+      - YouTube梦歌|广港IEPL|Netflix_155
+      - YouTube梦歌|广港IEPL|Netflix_104
+      - YouTube梦歌|广港IEPL|Netflix_127
+      - YouTube梦歌|广港IEPL|Netflix_153
+      - YouTube梦歌|广港IEPL|Netflix_149
+      - YouTube梦歌|广港IEPL|Netflix_123
+      - YouTube梦歌|广港IEPL|Netflix_147
+      - YouTube梦歌|广港IEPL|Netflix_120
       - 中转节点-2.37MB/s(Youtube:不良林)
+      - YouTube梦歌|广港IEPL|Netflix_145
       - Youtube顺丰资源 CN7
+      - YouTube梦歌|广港IEPL|Netflix_118
+      - YouTube梦歌|广港IEPL|Netflix_144
+      - YouTube梦歌|广港IEPL|Netflix_146
+      - YouTube梦歌|广港IEPL|Netflix_117
       - Youtube顺丰资源 CN12
+      - YouTube梦歌|广港IEPL|Netflix_152
       - Youtube顺丰资源 CN20
+      - YouTube梦歌|广港IEPL|Netflix_121
+      - YouTube梦歌|广港IEPL|Netflix_119
+      - YouTube梦歌|广港IEPL|Netflix_122
       - 美国-2.57MB/s(Youtube:不良林)
+      - YouTube梦歌|广港隧道|NETFLIX_3
+      - YouTube梦歌|江港隧道|Netflix_99
+      - YouTube梦歌|广港隧道|NETFLIX_23
+      - YouTube梦歌|广港隧道|NETFLIX_26
+      - YouTube梦歌|江港隧道|Netflix_44
+      - YouTube梦歌|广港隧道|NETFLIX_1 2
+      - YouTube梦歌|江港隧道|Netflix_29
+      - YouTube梦歌|广港隧道|NETFLIX_8
       - Youtube顺丰资源 CN252
+      - YouTube梦歌|广港隧道|NETFLIX_10
       - 菲律宾高速入口(频道:马克吐温)
+      - YouTube梦歌|杭港隧道|NETFLIX_61
       - 匈牙利优化入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_1
+      - YouTube梦歌|广港隧道|NETFLIX_9
+      - YouTube梦歌|广港隧道|NETFLIX_11
       - 瑞士高速入口(频道:马克吐温)
+      - YouTube梦歌|江港隧道|Netflix_9
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
