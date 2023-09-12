@@ -5,58 +5,73 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 中转节点-10.05MB/s
-    server: yd-04.paofunlink.com
-    port: 5957
+  - name: 中转节点-6.51MB/s(Youtube:不良林)
+    server: sg-05.xm1s.top
+    port: 458
     type: ssr
-    cipher: chacha20-ietf
-    password: bxsnucrgk6hfish
-    protocol: auth_aes128_sha1
+    cipher: dummy
+    password: MKaQhd
+    protocol: auth_chain_b
     obfs: plain
-    protocol-param: 40931:Pumv3L
-    obfs-param: 6f76640931.microsoft.com
+    protocol-param: 2537:mktbEZ
+    obfs-param: wns.windows.com
     udp: true
-  - name: YouTube梦歌|深港BGP_13
-    server: yd.qianggewangluo.buzz
-    port: 10813
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_6
-    server: yd.qianggewangluo.buzz
-    port: 10806
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: Youtube顺丰资源 香港170
-    server: 103.160.204.43
-    port: 80
+  - name: Youtube顺丰资源 CN9
+    server: in06.my1188.org
+    port: 64097
     type: vmess
-    uuid: 7ca21098-691c-4c12-8aac-934b21635423
+    uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: ws
-    ws-path: /TG:@hkaa0
-    ws-headers:
-      Host: 16.wyhkaa0.gq
     udp: true
-  - name: YouTube梦歌|深港BGP_8
-    server: yd.qianggewangluo.buzz
-    port: 10808
+  - name: 美国-559.7KB/s
+    server: 216.52.183.244
+    port: 443
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
+    cipher: aes-128-gcm
+    password: 83XvX4Vo%*3a
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ""
+      path: ""
+      tls: false
+      mux: true
+      skip-cert-verify: true
     udp: true
-  - name: YouTube梦歌|深港BGP_9
-    server: yd.qianggewangluo.buzz
-    port: 10809
+  - name: 法国-1.01MB/s
+    server: 195.154.118.40
+    port: 443
+    type: ssr
+    cipher: aes-256-ctr
+    password: NewBypasser2023
+    protocol: origin
+    obfs: tls1.2_ticket_auth
+    protocol-param: ""
+    obfs-param: ""
+    udp: true
+  - name: Youtube顺丰资源 美国225 2
+    server: 45.63.106.86
+    port: 54253
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
+    cipher: aes-256-gcm
+    password: MdADCcEjqI
+    udp: true
+  - name: 美国-2.77MB/s
+    server: 35.92.39.120
+    port: 443
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    udp: true
+  - name: 美国-2.66MB/s
+    server: www.dongtaiwang4.com
+    port: 30033
+    type: ss
+    cipher: aes-256-gcm
+    password: dongtaiwang.com
     udp: true
   - name: (已存活1天)中转节点-6.64MB/s
     server: cm01.newcome.xyz
@@ -69,366 +84,44 @@ proxies:
     protocol-param: 84263:3gj7aB
     obfs-param: c75be84263.microsoft.com
     udp: true
-  - name: YouTube梦歌|深港BGP_10
-    server: yd.qianggewangluo.buzz
-    port: 10810
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
+  - name: Youtube顺丰资源 CN92
+    server: in06.my1188.org
+    port: 64003
+    type: vmess
+    uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
-  - name: YouTube梦歌|深港BGP_4
-    server: yd.qianggewangluo.buzz
-    port: 10804
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_5
-    server: yd.qianggewangluo.buzz
-    port: 10805
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_11
-    server: yd.qianggewangluo.buzz
-    port: 10811
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_12
-    server: yd.qianggewangluo.buzz
-    port: 10812
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_14
-    server: yd.qianggewangluo.buzz
-    port: 10814
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_17
-    server: yd.qianggewangluo.buzz
-    port: 10817
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_2
-    server: yd.qianggewangluo.buzz
-    port: 10802
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_3
-    server: yd.qianggewangluo.buzz
-    port: 10803
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_7
-    server: yd.qianggewangluo.buzz
-    port: 10807
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_15
-    server: yd.qianggewangluo.buzz
-    port: 10815
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: 中转节点-6.51MB/s(Youtube:不良林)
-    server: sg-05.xm1s.top
-    port: 458
+  - name: (已存活3天)中转节点-8.18MB/s
+    server: yd-03.paofunlink.com
+    port: 1056
     type: ssr
-    cipher: dummy
-    password: MKaQhd
-    protocol: auth_chain_b
+    cipher: chacha20-ietf
+    password: bxsnucrgk6hfish
+    protocol: auth_aes128_sha1
     obfs: plain
-    protocol-param: 2537:mktbEZ
-    obfs-param: wns.windows.com
+    protocol-param: 40931:Pumv3L
+    obfs-param: 6f76640931.microsoft.com
     udp: true
-  - name: YouTube梦歌_119
-    server: 41.kccic2pa.xyz
-    port: 50041
-    type: vmess
-    uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
+  - name: (已存活3天)中转节点-7.76MB/s
+    server: yd-02.paofunlink.com
+    port: 1054
+    type: ssr
+    cipher: chacha20-ietf
+    password: bxsnucrgk6hfish
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 40931:Pumv3L
+    obfs-param: 6f76640931.microsoft.com
     udp: true
-  - name: YouTube梦歌|深港BGP_16
-    server: yd.qianggewangluo.buzz
-    port: 10816
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌|深港BGP_1
-    server: yd.qianggewangluo.buzz
-    port: 10801
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌_102
-    server: 17.kccic2pa.xyz
-    port: 50017
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源 日本179
-    server: 1gzdx2.156786.xyz
-    port: 37905
-    type: trojan
-    password: 98bae868-4f00-40e0-9603-8d848644ec44
-    sni: 1gzdx2.156786.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_161
-    server: 101.91.201.59
-    port: 50016
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌|深港BGP_19
-    server: yd.qianggewangluo.buzz
-    port: 10818
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: da71e289-aff4-4380-b03f-00f2666e0d28
-    udp: true
-  - name: YouTube梦歌_7
-    server: 32.kccic2pa.xyz
-    port: 50032
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_22
-    server: 101.91.201.59
-    port: 50042
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_28
-    server: 34.kccic2pa.xyz
-    port: 50034
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_61
-    server: 101.91.201.59
-    port: 50042
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_20
-    server: 33.kccic2pa.xyz
-    port: 50033
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_68
-    server: flkf3.shabijichang.com
-    port: 80
-    type: vmess
-    uuid: ef591064-640a-48e0-a511-623d5c0e67e9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: flkf3.shabijichang.com
-    udp: true
-  - name: YouTube梦歌|低速节点_12
-    server: 16.kccic2pa.xyz
-    port: 50016
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_10
-    server: 30.kccic2pa.xyz
-    port: 50030
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_132
-    server: 36.140.102.11
-    port: 50008
-    type: vmess
-    uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_37
-    server: 01.kccic2pa.xyz
-    port: 50001
-    type: vmess
-    uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Youtube顺丰资源 美国210
-    server: mg.beautyandbeast.top
+  - name: 日本-3.46MB/s
+    server: 18.183.135.18
     port: 443
-    type: vmess
-    uuid: 2ecb2e6c-ed4c-48ce-9e71-c0eff6dce59a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: grpc
-    servername: mg.beautyandbeast.top
-    grpc-opts:
-      grpc-service-name: mg.beautyandbeast.top
-    udp: true
-  - name: 南非高速入口(频道:马克吐温)
-    server: yidong.liulangdiqiu.cyou
-    port: 10723
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-    udp: true
-  - name: 瑞典高速入口(频道:马克吐温)
-    server: yidong.liulangdiqiu.cyou
-    port: 10719
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-    udp: true
-  - name: 英国高速入口(频道:马克吐温)
-    server: yidong.liulangdiqiu.cyou
-    port: 10713
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-    udp: true
-  - name: YouTube梦歌_11
-    server: 42.kccic2pa.xyz
-    port: 50042
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌|江港BGP_59
-    server: 101.91.116.224
-    port: 24962
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: f88f3206-c236-4aaf-8b76-465b6a542260
-    udp: true
-  - name: 香港高速入口(频道:马克吐温)
-    server: yidong.liulangdiqiu.cyou
-    port: 10726
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-    udp: true
-  - name: YouTube梦歌|江港BGP_37
-    server: 20.kccic2pa.xyz
-    port: 50020
-    type: vmess
-    uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_18
-    server: 31.kccic2pa.xyz
-    port: 50031
-    type: vmess
-    uuid: baefc389-72b1-4f23-bbad-3a85cf51fe8a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_20 2
-    server: 20.187.91.18
-    port: 443
-    type: trojan
-    password: 1d77bc32-ea1e-4c9d-8db2-440340d96f12
-    skip-cert-verify: true
-    udp: true
-  - name: YouTube梦歌_92
-    server: yidong.liulangdiqiu.cyou
-    port: 10704
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-    udp: true
-  - name: YouTube梦歌_49
-    server: free.node.kk-proxy.pro
-    port: 55928
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: f88f3206-c236-4aaf-8b76-465b6a542260
-    udp: true
-  - name: YouTube梦歌_156
-    server: 07.kccic2pa.xyz
-    port: 50007
-    type: vmess
-    uuid: 5d4da405-51e6-4fc9-906f-e5fdd66ef72b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
+    cipher: aes-256-cfb
+    password: amazonskr05
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -438,164 +131,53 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -614,245 +196,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -868,165 +280,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
-      - 中转节点-10.05MB/s
-      - YouTube梦歌|深港BGP_13
-      - YouTube梦歌|深港BGP_6
-      - Youtube顺丰资源 香港170
-      - YouTube梦歌|深港BGP_8
-      - YouTube梦歌|深港BGP_9
-      - (已存活1天)中转节点-6.64MB/s
-      - YouTube梦歌|深港BGP_10
-      - YouTube梦歌|深港BGP_4
-      - YouTube梦歌|深港BGP_5
-      - YouTube梦歌|深港BGP_11
-      - YouTube梦歌|深港BGP_12
-      - YouTube梦歌|深港BGP_14
-      - YouTube梦歌|深港BGP_17
-      - YouTube梦歌|深港BGP_2
-      - YouTube梦歌|深港BGP_3
-      - YouTube梦歌|深港BGP_7
-      - YouTube梦歌|深港BGP_15
       - 中转节点-6.51MB/s(Youtube:不良林)
-      - YouTube梦歌_119
-      - YouTube梦歌|深港BGP_16
-      - YouTube梦歌|深港BGP_1
-      - YouTube梦歌_102
-      - Youtube顺丰资源 日本179
-      - YouTube梦歌_161
-      - YouTube梦歌|深港BGP_19
-      - YouTube梦歌_7
-      - YouTube梦歌_22
-      - YouTube梦歌_28
-      - YouTube梦歌_61
-      - YouTube梦歌_20
-      - YouTube梦歌_68
-      - YouTube梦歌|低速节点_12
-      - YouTube梦歌_10
-      - YouTube梦歌_132
-      - YouTube梦歌_37
-      - Youtube顺丰资源 美国210
-      - 南非高速入口(频道:马克吐温)
-      - 瑞典高速入口(频道:马克吐温)
-      - 英国高速入口(频道:马克吐温)
-      - YouTube梦歌_11
-      - YouTube梦歌|江港BGP_59
-      - 香港高速入口(频道:马克吐温)
-      - YouTube梦歌|江港BGP_37
-      - YouTube梦歌_18
-      - YouTube梦歌_20 2
-      - YouTube梦歌_92
-      - YouTube梦歌_49
-      - YouTube梦歌_156
+      - Youtube顺丰资源 CN9
+      - 美国-559.7KB/s
+      - 法国-1.01MB/s
+      - Youtube顺丰资源 美国225 2
+      - 美国-2.77MB/s
+      - 美国-2.66MB/s
+      - (已存活1天)中转节点-6.64MB/s
+      - Youtube顺丰资源 CN92
+      - (已存活3天)中转节点-8.18MB/s
+      - (已存活3天)中转节点-7.76MB/s
+      - 日本-3.46MB/s
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
