@@ -5,6 +5,31 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - name: 未知国家-2.02MB/s
+    server: cf-lt.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /shirker
+    ws-headers:
+      Host: buyvm3.ilovescp.com
+    udp: true
+  - name: (已存活1天)中转节点-16.29MB/s
+    server: sg02.ptrecord.com
+    port: 45988
+    type: ssr
+    cipher: rc4-md5
+    password: 8l8rjn5c6xk
+    protocol: origin
+    obfs: http_simple
+    protocol-param: ""
+    obfs-param: download.windowsupdate.com
+    udp: true
   - name: 中转节点-6.51MB/s(Youtube:不良林)
     server: sg-05.xm1s.top
     port: 458
@@ -71,6 +96,663 @@ proxies:
     protocol-param: 114733:ildqXMCMd8HXeOMP
     obfs-param: a9476114733.microsoft.com
     udp: true
+  - name: 日本 E 0.3x
+    server: bsdhd77cdys65sxx.bacida745.me
+    port: 7021
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 中转节点-1.41MB/s
+    server: 183.232.170.32
+    port: 30005
+    type: ss
+    cipher: aes-128-gcm
+    password: g12sQi#ss#&1
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: ""
+    udp: true
+  - name: 香港 D
+    server: a3gsdkayttlejtxs.bacida745.me
+    port: 7011
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 香港 F 0.3x
+    server: bsdhd77cdys65sxx.bacida745.me
+    port: 7011
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 香港 A
+    server: a1jexzshnphscpcr.bacida745.me
+    port: 7011
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: (已存活3天)中转节点-7.76MB/s
+    server: yd-02.paofunlink.com
+    port: 1054
+    type: ssr
+    cipher: chacha20-ietf
+    password: bxsnucrgk6hfish
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 40931:Pumv3L
+    obfs-param: 6f76640931.microsoft.com
+    udp: true
+  - name: (已存活3天)中转节点-8.18MB/s
+    server: yd-03.paofunlink.com
+    port: 1056
+    type: ssr
+    cipher: chacha20-ietf
+    password: bxsnucrgk6hfish
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 40931:Pumv3L
+    obfs-param: 6f76640931.microsoft.com
+    udp: true
+  - name: 韩国 B
+    server: a2jphkzxwmzjylmt.bacida745.me
+    port: 7061
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 韩国 A
+    server: a1jexzshnphscpcr.bacida745.me
+    port: 7061
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 韩国 C
+    server: a3gsdkayttlejtxs.bacida745.me
+    port: 7061
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 日本 C
+    server: a3gsdkayttlejtxs.bacida745.me
+    port: 7021
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|杭港BGP_14
+    server: 08.kccic2pa.xyz
+    port: 50008
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: (已存活1天)中转节点-6.64MB/s
+    server: cm01.newcome.xyz
+    port: 3704
+    type: ssr
+    cipher: chacha20-ietf
+    password: jFa4F1
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 84263:3gj7aB
+    obfs-param: c75be84263.microsoft.com
+    udp: true
+  - name: 美国 C
+    server: a3gsdkayttlejtxs.bacida745.me
+    port: 7031
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 美国 A
+    server: a1jexzshnphscpcr.bacida745.me
+    port: 7031
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 新加坡 E 0.3x
+    server: bsdhd77cdys65sxx.bacida745.me
+    port: 7041
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 新加坡 F 0.3x
+    server: bfcztshshh6rxnzy.bacida745.me
+    port: 7041
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 澳大利亚
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7084
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 台湾 A
+    server: a1jexzshnphscpcr.bacida745.me
+    port: 7051
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 美国 B
+    server: a2jphkzxwmzjylmt.bacida745.me
+    port: 7031
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|杭港BGP_22
+    server: 34.kccic2pa.xyz
+    port: 50034
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_29
+    server: 42.kccic2pa.xyz
+    port: 50042
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_25
+    server: 20.kccic2pa.xyz
+    port: 50020
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_20
+    server: 10.kccic2pa.xyz
+    port: 50010
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 美国-947.2KB/s
+    server: 45.199.138.193
+    port: 49951
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_19
+    server: 17.kccic2pa.xyz
+    port: 50017
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 台湾 E [0.3x]
+    server: bsdhd77cdys65sxx.bacida745.me
+    port: 7051
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 德国
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7087
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 俄罗斯
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7082
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 英国
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7083
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 土耳其
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7085
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|杭港BGP_21
+    server: 07.kccic2pa.xyz
+    port: 50007
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 日本 B
+    server: a2jphkzxwmzjylmt.bacida745.me
+    port: 7021
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|杭港BGP_36
+    server: 09.kccic2pa.xyz
+    port: 50009
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 伊朗-272.6KB/s
+    server: 78.39.56.7
+    port: 13227
+    type: vmess
+    uuid: ab3608a2-f43b-456f-83e2-dc7e8d683068
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_75
+    server: jp-03sanxi-jp-v2boardsanxijichang.sanxi.cyou
+    port: 443
+    type: vmess
+    uuid: c9523669-b6f3-439e-962e-ae2536bb0a7f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: jp-03sanxi-jp-v2boardsanxijichang.sanxi.cyou
+    udp: true
+  - name: YouTube梦歌|深港BGP_5
+    server: yd.qianggewangluo.buzz
+    port: 10805
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_6
+    server: yd.qianggewangluo.buzz
+    port: 10806
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_7
+    server: yd.qianggewangluo.buzz
+    port: 10807
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_8
+    server: yd.qianggewangluo.buzz
+    port: 10808
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_1
+    server: yd.qianggewangluo.buzz
+    port: 10801
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_2
+    server: yd.qianggewangluo.buzz
+    port: 10802
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_3
+    server: yd.qianggewangluo.buzz
+    port: 10803
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_4
+    server: yd.qianggewangluo.buzz
+    port: 10804
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_9
+    server: yd.qianggewangluo.buzz
+    port: 10809
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_10
+    server: yd.qianggewangluo.buzz
+    port: 10810
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_11
+    server: yd.qianggewangluo.buzz
+    port: 10811
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_12
+    server: yd.qianggewangluo.buzz
+    port: 10812
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_14
+    server: yd.qianggewangluo.buzz
+    port: 10814
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_13
+    server: yd.qianggewangluo.buzz
+    port: 10813
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_15
+    server: yd.qianggewangluo.buzz
+    port: 10815
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_16
+    server: yd.qianggewangluo.buzz
+    port: 10816
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|深港BGP_19
+    server: yd.qianggewangluo.buzz
+    port: 10818
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ee10396c-3be8-45a9-b76d-0a8634557fd2
+    udp: true
+  - name: YouTube梦歌|杭港BGP_24
+    server: 16.kccic2pa.xyz
+    port: 50016
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_45
+    server: jp-01sanxi-jp-v2boardsanxijichang.sanxi.cyou
+    port: 443
+    type: vmess
+    uuid: c9523669-b6f3-439e-962e-ae2536bb0a7f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: jp-01sanxi-jp-v2boardsanxijichang.sanxi.cyou
+    udp: true
+  - name: YouTube梦歌|杭港BGP_17
+    server: 22.kccic2pa.xyz
+    port: 50022
+    type: vmess
+    uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_97
+    server: cc1.clare88.tk
+    port: 12653
+    type: vmess
+    uuid: fce96161-0c58-4ba9-8430-660d84083888
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 阿根廷
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7081
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: 美国-2.21MB/s
+    server: 45.199.138.207
+    port: 50447
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 美国 D 0.3x
+    server: bsdhd77cdys65sxx.bacida745.me
+    port: 7031
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|深港隧道|Netflix 巴西
+    server: a4wcenmcsbit58ap.bacida745.me
+    port: 7086
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 114733:ildqXMCMd8HXeOMP
+    obfs-param: a9476114733.microsoft.com
+    udp: true
+  - name: YouTube梦歌|杭港BGP_82
+    server: cc1.clare88.tk
+    port: 12653
+    type: vmess
+    uuid: fce96161-0c58-4ba9-8430-660d84083888
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    udp: true
+  - name: 美国-1.10MB/s
+    server: 45.199.138.205
+    port: 51694
+    type: vmess
+    uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: YouTube梦歌|杭港BGP_22 2
+    server: br-01sanxi-br-v2boardsanxijichang.sanxi.cyou
+    port: 443
+    type: vmess
+    uuid: c9523669-b6f3-439e-962e-ae2536bb0a7f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: br-01sanxi-br-v2boardsanxijichang.sanxi.cyou
+    udp: true
+  - name: YouTube梦歌|杭港BGP_87
+    server: free.node.kk-proxy.pro
+    port: 24962
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a
+    udp: true
+  - name: YouTube梦歌|杭港BGP_85
+    server: fhc.shabijichang.com
+    port: 80
+    type: vmess
+    uuid: 0c3a3cc8-aff3-475c-8d8a-87c3ca3cb37b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: fhc5.shabijichang.com
+    udp: true
+  - name: YouTube梦歌|杭港BGP_95
+    server: free.node.kk-proxy.pro
+    port: 54455
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a
+    udp: true
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -79,35 +761,242 @@ proxy-groups:
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -126,53 +1015,376 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 香港 B
       - 香港 E  0.3x
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - YouTube梦歌|杭港BGP_14
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - YouTube梦歌|杭港BGP_36
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,36 +1400,243 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: consistent-hashing
     proxies:
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     strategy: round-robin
     proxies:
+      - 未知国家-2.02MB/s
+      - (已存活1天)中转节点-16.29MB/s
       - 中转节点-6.51MB/s(Youtube:不良林)
       - 新加坡 C
       - 香港 B
       - 新加坡 B
       - 香港 E  0.3x
       - 日本 F 0.3x
+      - 日本 E 0.3x
+      - 中转节点-1.41MB/s
+      - 香港 D
+      - 香港 F 0.3x
+      - 香港 A
+      - (已存活3天)中转节点-7.76MB/s
+      - (已存活3天)中转节点-8.18MB/s
+      - 韩国 B
+      - 韩国 A
+      - 韩国 C
+      - 日本 C
+      - YouTube梦歌|杭港BGP_14
+      - (已存活1天)中转节点-6.64MB/s
+      - 美国 C
+      - 美国 A
+      - 新加坡 E 0.3x
+      - 新加坡 F 0.3x
+      - YouTube梦歌|深港隧道|Netflix 澳大利亚
+      - 台湾 A
+      - 美国 B
+      - YouTube梦歌|杭港BGP_22
+      - YouTube梦歌|杭港BGP_29
+      - YouTube梦歌|杭港BGP_25
+      - YouTube梦歌|杭港BGP_20
+      - 美国-947.2KB/s
+      - YouTube梦歌|杭港BGP_19
+      - 台湾 E [0.3x]
+      - YouTube梦歌|深港隧道|Netflix 德国
+      - YouTube梦歌|深港隧道|Netflix 俄罗斯
+      - YouTube梦歌|深港隧道|Netflix 英国
+      - YouTube梦歌|深港隧道|Netflix 土耳其
+      - YouTube梦歌|杭港BGP_21
+      - 日本 B
+      - YouTube梦歌|杭港BGP_36
+      - 伊朗-272.6KB/s
+      - YouTube梦歌|杭港BGP_75
+      - YouTube梦歌|深港BGP_5
+      - YouTube梦歌|深港BGP_6
+      - YouTube梦歌|深港BGP_7
+      - YouTube梦歌|深港BGP_8
+      - YouTube梦歌|深港BGP_1
+      - YouTube梦歌|深港BGP_2
+      - YouTube梦歌|深港BGP_3
+      - YouTube梦歌|深港BGP_4
+      - YouTube梦歌|深港BGP_9
+      - YouTube梦歌|深港BGP_10
+      - YouTube梦歌|深港BGP_11
+      - YouTube梦歌|深港BGP_12
+      - YouTube梦歌|深港BGP_14
+      - YouTube梦歌|深港BGP_13
+      - YouTube梦歌|深港BGP_15
+      - YouTube梦歌|深港BGP_16
+      - YouTube梦歌|深港BGP_19
+      - YouTube梦歌|杭港BGP_24
+      - YouTube梦歌|杭港BGP_45
+      - YouTube梦歌|杭港BGP_17
+      - YouTube梦歌|杭港BGP_97
+      - YouTube梦歌|深港隧道|Netflix 阿根廷
+      - 美国-2.21MB/s
+      - 美国 D 0.3x
+      - YouTube梦歌|深港隧道|Netflix 巴西
+      - YouTube梦歌|杭港BGP_82
+      - 美国-1.10MB/s
+      - YouTube梦歌|杭港BGP_22 2
+      - YouTube梦歌|杭港BGP_87
+      - YouTube梦歌|杭港BGP_85
+      - YouTube梦歌|杭港BGP_95
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
