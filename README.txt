@@ -131,7 +131,6 @@ proxies:
   - {name: 🇺🇸 _US_美国 10, server: cdn.yifenjichang.top, port: 2086, type: vmess, uuid: 900ceafc-30b8-4581-a305-31854f563e4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 900ceafc-30b8-4581-a305-31854f563e4f, headers: {Host: context-sing-pennsylvania-photography.trycloudflare.com}}}
   - {name: 🇺🇸 _US_美国 11, server: 162.159.134.23, port: 8080, type: vmess, uuid: 9b196b50-37f2-4f4b-b175-06273adc6207, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm, headers: {Host: championship-bidding-oxygen-brochure.trycloudflare.com}}}
   - {name: 104.234.202.187@SSRSUB, server: 104.234.202.187, port: 24422, type: ss, cipher: aes-256-gcm, password: qw7lnQ2zj3}
-  - {name: 1111@SSRSUB, server: 176.119.203.233, port: 1111, type: ss, cipher: chacha20-poly1305, password: !<str> 123456789}
   - {name: 163.197.212.241@SSRSUB, server: 163.197.212.241, port: 5555, type: ss, cipher: aes-256-gcm, password: 2006825xcj}
   - {name: 175.178.55.243@SSRSUB, server: 175.178.55.243, port: 33963, type: ss, cipher: chacha20-poly1305, password: MxZuOpppbY}
   - {name: 183.110.194.4|频道, server: 183.110.194.4, port: 9988, type: ss, cipher: aes-256-gcm, password: !<str> 12345678}
